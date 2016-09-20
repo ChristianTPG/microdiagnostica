@@ -1,0 +1,79 @@
+{{ detalleProductoCtrl.breadcrumb }}
+
+<div class="col-md-9 product-price1">
+    <div class="clearfix"></div>
+
+    <div class="col-md-5 single-top" style="overflow: hidden; position: relative;">	
+        <img src="{{ detalleProductoCtrl.seleccionado.img }}" style="max-width: 100%;max-height: 100%;" alt="">
+    </div>
+    <div class="col-md-7 single-top-in simpleCart_shelfItem">
+        <div class="single-para ">
+            <h4>{{ detalleProductoCtrl.seleccionado.name }}</h4>
+            <div class="available" >
+               <ul>
+                   <li ng-show="detalleProductoCtrl.producto.sub.length > 0">
+                       <div class="col-md-1">
+                            Modelo
+                       </div>
+                       <div class="col-md-11">
+                           <select ng-model="detalleProductoCtrl.seleccionado" ng-options="x.name for x in detalleProductoCtrl.producto.sub" class="form-control"></select>
+                       </div>
+                   </li>
+                   <li ng-show="detalleProductoCtrl.seleccionado.descripcion">
+                       {{ detalleProductoCtrl.seleccionado.descripcion }}
+                   </li>
+               </ul>
+               
+                <div class="clearfix"></div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+    
+    <div class="cd-tabs" >
+        <nav>
+            <ul class="cd-tabs-navigation" >
+                <li>
+                    <a data-content="fashion" ng-click="detalleProductoCtrl.mostrarTabs($event,1)" class="selected"  href>Description </a>
+                </li>
+                <li>
+                    <a data-content="cinema" ng-click="detalleProductoCtrl.mostrarTabs($event,2)" class="" href>Addtional Informatioan</a>
+                </li>
+                <li ng-show="detalleProductoCtrl.seleccionado.video">
+                    <a data-content="television" ng-click="detalleProductoCtrl.mostrarTabs($event,3)" class="" href>Video</a>
+                </li>
+            </ul> 
+        </nav>
+        <ul class="cd-tabs-content">
+            <li data-content="fashion" ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 1}">
+                <div  >
+                    <p > 
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined 
+                    </p>
+                </div>
+            </li>
+            <li data-content="cinema" ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 2}">
+                <div class="facts1" >
+                    <div class="color">
+                        <p>Color</p>
+                        <span >Blue, Black, Red</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="color">
+                        <p>Size</p>
+                        <span >S, M, L, XL</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </li>
+            
+            <li data-content="television"  ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 3}">
+                <video src="{{ detalleProductoCtrl.seleccionado.video }}" controls></video>
+            </li>
+            <div class="clearfix"></div>
+	    </ul> 
+    </div> 
+</div> 

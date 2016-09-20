@@ -1,0 +1,9 @@
+tab-contenido
+{
+    transition: all linear 0.5s;
+}
+
+tab-contenido.ng-hide
+{
+    visibility: hidden;
+}

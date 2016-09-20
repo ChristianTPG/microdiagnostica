@@ -1,0 +1,347 @@
+[
+    {   
+        "name": "Equipos", 
+        "sub":    [
+                    {   
+                        "name": "Diluctores Gavimetricos", 
+                        "sub":[
+                                {   
+                                    "name": "DiluFlow",
+                                    "img": "assets/img/pito1.jpg",
+                                    "video": "assets/videos/Bolsas y Accesorios.mp4",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "DiluFlow Pro", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "DiluFlow Elite 1Kg", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "descripcion":  "BagMixer Premium Pack es la mejor y mas rapida manera para equipar su laboratorio. Bag Mixer 400 es un          homogeneizador de laboratorio facil de uso y potente. Adaptado a todo tipo de aplicaciones y con una garantia de la extraccion de bacterias optima, evita asi todo riesgo de contaminacion cruzada",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "DiluFlow Elite 5Kg", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Homogeneizadores", 
+                        "sub":[
+                                {   
+                                    "name": "Gama MiniMix 100",
+                                    "img": "assets/img/pito1.jpg", 
+                                    "sub":  [
+                                                { 
+                                                    "name": "MiniMix P CC", 
+                                                    "img": "assets/img/pito1.jpg", 
+                                                    "descripcion": "MiniMix P CC",
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "MiniMix W CC",  
+                                                    "descripcion": "MiniMix W CC",
+                                                    "img": "assets/img/pito2.jpg", 
+                                                    "sub": []
+                                                } 
+                                            ] 
+                                },
+                                {   
+                                    "name": "Gama BagMixer 400", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub":  [
+                                                { 
+                                                    "name": "BagMixer 400 P", 
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "BagMixer 400 W", 
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "BagMixer 400 CC", 
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "BagMixer S", 
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "BagMixer SW", 
+                                                    "sub": []
+                                                } 
+                                            ] 
+                                },
+                                {   
+                                    "name": "Gama JumboMix 3500", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub":  [
+                                                { 
+                                                    "name": "JumboMix WarmMix", 
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "JumboMix 3500 VP", 
+                                                    "sub": []
+                                                },
+                                                {
+                                                    "name": "JumboMix 3500 VW", 
+                                                    "sub": []
+                                                } 
+                                            ]  
+
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Bombas Peristálticas", 
+                        "sub":[
+                                {   
+                                    "name": "FlexiPumb", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "FlexiPumb Pro", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ]
+                    },
+                    {   
+                        "name": "Sembradores Automáticos", 
+                         "sub":[
+                                {   
+                                    "name": "EasySpiral", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "EasySpiral Dilute", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Contadores de Colonias", 
+                         "sub":[
+                                {   
+                                    "name": "Scan 100", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "Scan 300", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "Scan 500", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "Scan 1200", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "Scan 4000", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Packs BagMixer", 
+                        "sub":[
+                                {   
+                                    "name": "BagMixer Starter Pack", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagMixer Classic Pack", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagMixer Premium Pack", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ]      
+                    },
+                    {   
+                        "name": "Accesorios de Laboratorio", 
+                        "sub":[
+                                {   
+                                    "name": "Gama PetriPile",
+                                    "img": "assets/img/pito1.jpg", 
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagSeal", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagOpen", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagClip", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagRack", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagPipet y BagTips", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ]     
+                    }
+                ]
+    },
+    {   
+        "name": "Bolsas", 
+        "sub":    [
+                    {   
+                        "name": "Gama RollBag", 
+                        "sub":[
+                                {   
+                                    "name": "RollBag 1300", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Gama BagLight", 
+                        "sub":[
+                                {   
+                                    "name": "BagLight Multilayer", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagLight HD Polysilk",
+                                    "img": "assets/img/pito1.jpg", 
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagLight Polysilk", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Gama BagPage", 
+                        "sub":[
+                                {   
+                                    "name": "BagPage XR", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagPage R", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagPage F", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagPage +", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Gama BagFilter", 
+                        "sub":[
+                                {   
+                                    "name": "BagFilter Pull-Up", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagFilter S", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "BagFilter P", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    }
+                ]
+    },
+    {   
+        "name": "Descartables", 
+        "sub":  [
+                    {   
+                        "name": "Vasos y Contenedores", 
+                        "sub": [] 
+                    },
+                    {   
+                        "name": "QuadLoops", 
+                        "sub": [] 
+                    },
+                    {   
+                        "name": "Esparcidores", 
+                        "sub": [] 
+                    },
+                    {   
+                        "name": "Placas de Petri", 
+                        "sub":[
+                                {   
+                                    "name": "50 mm", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "Placas de Contacto 65 mm", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                },
+                                {   
+                                    "name": "90 mm", 
+                                    "img": "assets/img/pito1.jpg",
+                                    "sub": [] 
+                                }
+                            ] 
+                    },
+                    {   
+                        "name": "Pipetas Serologicas", 
+                        "sub": [] 
+                    },
+                    {   
+                        "name": "Tips", 
+                        "sub": [] 
+                    },
+                    {   
+                        "name": "Microtubos", 
+                        "sub": [] 
+                    }
+                ]
+    }
+]
+    

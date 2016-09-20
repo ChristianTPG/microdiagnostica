@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MICRODIAGNOSTICA</title>
+
+    <!-- FOR ANGULAR ROUTING -->
+    <base href="/">
+
+    <!-- CSS -->
+    <!-- load bootstrap from CDN and custom CSS -->
+<!--    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+    <!--fonts-->
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+
+    <!-- JS -->
+    <!-- load angular and angular-route via CDN -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-animate.js"></script>
+    <script src="assets/js/jquery-3.1.0.min.js"></script>
+    <script src="assets/js/defiant.min.js"></script>
+    <script src="assets/js/angularSlideables.js"></script>
+    <script type="text/javascript" src="assets/js/move-top.js"></script>
+    <script type="text/javascript" src="assets/js/easing.js"></script>
+    <script src="assets/js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+   
+    <!-- controllers -->
+    <script src="app/controllers/mainCtrl.js"></script>
+    <script src="app/controllers/headerCtrl.js"></script>
+    <script src="app/controllers/userCtrl.js"></script>
+    <script src="app/controllers/productsCtrl.js"></script>
+    <script src="app/controllers/detalleProductoCtrl.js"></script>
+
+    <!-- services -->
+    <script src="app/services/authService.js"></script>
+    <script src="app/services/userService.js"></script>
+    <script src="app/services/productosService.js"></script>
+
+    <!-- main Angular app files -->
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.js"></script>
+    
+    <!-- start menu -->
+    <link href="assets/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="assets/js/memenu.js"></script>
+    <script>$(document).ready(function(){$(".memenu").memenu();});</script>	
+    
+	<script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/simpleCart.min.js"></script>
+<!--    <script src="assets/js/tabs.js"></script>-->
+    
+</head>
+	
+<body ng-app="userApp" ng-controller="mainController as main">
+
+    <!-- NAVBAR -->
+    <header ng-controller="headerController as heman">
+        <div class="header">
+            <div class="header-top">
+                <div class="header-bottom">
+                    <div class="container">			
+                        <div class="logo">
+                            <h1><a href="index.html">LOGO</a></h1>
+                        </div>`
+                        <!---->
+                        <div class="top-nav">
+                            <ul class="memenu skyblue">
+                                <li class="active"><a href="/">HOME</a></li>
+                                <li class="grid"><a href="#">PRODUCTOS</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one" ng-repeat="producto in heman.productos">
+                                                <h4>{{ producto.name }}</h4>
+                                                <ul>
+                                                    <li ng-repeat="sub in producto.sub">
+                                                        <a href="/productos/{{ producto.name }}/{{ sub.name }}">{{ sub.name }}</a>
+                                                    </li>
+                                                </ul> 
+                                            </div>
+                                        </div>
+                                    </div>       
+                                </li>
+                                <li class="grid"><a href="/nosotros">NOSOTROS</a></li>
+                                <li class="grid"><a href="/contacto">CONTACTO</a></li>
+                            </ul>
+                            
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- DIV DE CATEGORIAS -->
+         <div class="col-md-3 product-price" ng-show="main.muestraCategoria">
+            <div class=" rsidebar span_1_of_left" >
+
+                <div class="of-left">
+                    <h3 class="cate">Categorias</h3>
+                </div>
+
+                <ul class="menu">
+                    <li ng-repeat="categoria in main.listado_productos" >
+                        <a href="#" slide-toggle="#row_{{$index}}" ng-init="productosCtrl.someMethod(categoria.name, $element)">{{ categoria.name }}</a>
+                        <div id="row_{{$index}}" class="slideable" style="pointer-events:none;">
+                            <ul>
+                                <li  ng-repeat="subcategoria in categoria.sub">
+                                    <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>		
+        <!-- ANGULAR VIEWS -->
+        <div ng-view></div>
+    </main>
+
+</body>
+</html>

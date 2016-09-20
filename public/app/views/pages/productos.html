@@ -1,0 +1,27 @@
+<div class="col-md-9 product-price1" >
+    <div class="col-md-4 chain-grid  simpleCart_shelfItem" ng-repeat="producto in productosCtrl.productos">
+       
+        <div class="grid-span-1">
+            <a  href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}"><img class="img-responsive " src="{{ producto.img }}" alt=" ">
+                <div class="link">
+                    <ul >
+                        <li><i class="glyphicon glyphicon-search"> </i></li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+
+        <div class="grid-chain-bottom ">
+            <a href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}">{{ producto.name }}</a>
+            <div class="star-price">
+                <div class="price-at-bottom ">
+                    <span class="item_price">cod. tu vieja</span>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        
+        <br/>
+        
+    </div>
+</div>
