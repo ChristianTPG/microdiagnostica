@@ -62,74 +62,81 @@
 	
 <body ng-app="userApp" ng-controller="mainController as main">
 
+   <div ng-show='false'>
+       <header ng-controller="headerController as heman">
+           <div class="header">
+               <div class="header-top">
+                   <div class="header-bottom">
+                       <div class="container">			
+                           <div class="logo">
+                               <h1><a href="index.html">LOGO</a></h1>
+                           </div>`
+                           <!---->
+                           <div class="top-nav">
+                               <ul class="memenu skyblue">
+                                   <li class="active"><a href="/">HOME</a></li>
+                                   <li class="grid"><a href="#">PRODUCTOS</a>
+                                       <div class="mepanel">
+                                           <div class="row">
+                                               <div class="col1 me-one" ng-repeat="producto in heman.productos">
+                                                   <h4>{{ producto.name }}</h4>
+                                                   <ul>
+                                                       <li ng-repeat="sub in producto.sub">
+                                                           <a href="/productos/{{ producto.name }}/{{ sub.name }}">{{ sub.name }}</a>
+                                                       </li>
+                                                   </ul> 
+                                               </div>
+                                           </div>
+                                       </div>       
+                                   </li>
+                                   <li class="grid"><a href="/nosotros">NOSOTROS</a></li>
+                                   <li class="grid"><a href="/contacto">CONTACTO</a></li>
+                               </ul>
+
+                               <div class="clearfix"> </div>
+                           </div>
+                           <div class="clearfix"> </div>
+                       </div>
+                       <div class="clearfix"> </div>
+                   </div>
+               </div>
+           </div>
+       </header>
+
+       <main class="container">
+           <!-- DIV DE CATEGORIAS -->
+           <div class="col-md-3 product-price" ng-show="main.muestraCategoria">
+               <div class=" rsidebar span_1_of_left" >
+
+                   <div class="of-left">
+                       <h3 class="cate">Categorias</h3>
+                   </div>
+
+                   <ul class="menu">
+                       <li ng-repeat="categoria in main.listado_productos" >
+                           <a href="#" slide-toggle="#row_{{$index}}" ng-init="productosCtrl.someMethod(categoria.name, $element)">{{ categoria.name }}</a>
+                           <div id="row_{{$index}}" class="slideable" style="pointer-events:none;">
+                               <ul>
+                                   <li  ng-repeat="subcategoria in categoria.sub">
+                                       <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </li>
+                   </ul>
+
+               </div>
+           </div>		
+           <!-- ANGULAR VIEWS -->
+           <div ng-view></div>
+       </main>
+
+   </div>
     <!-- NAVBAR -->
-    <header ng-controller="headerController as heman">
-        <div class="header">
-            <div class="header-top">
-                <div class="header-bottom">
-                    <div class="container">			
-                        <div class="logo">
-                            <h1><a href="index.html">LOGO</a></h1>
-                        </div>`
-                        <!---->
-                        <div class="top-nav">
-                            <ul class="memenu skyblue">
-                                <li class="active"><a href="/">HOME</a></li>
-                                <li class="grid"><a href="#">PRODUCTOS</a>
-                                    <div class="mepanel">
-                                        <div class="row">
-                                            <div class="col1 me-one" ng-repeat="producto in heman.productos">
-                                                <h4>{{ producto.name }}</h4>
-                                                <ul>
-                                                    <li ng-repeat="sub in producto.sub">
-                                                        <a href="/productos/{{ producto.name }}/{{ sub.name }}">{{ sub.name }}</a>
-                                                    </li>
-                                                </ul> 
-                                            </div>
-                                        </div>
-                                    </div>       
-                                </li>
-                                <li class="grid"><a href="/nosotros">NOSOTROS</a></li>
-                                <li class="grid"><a href="/contacto">CONTACTO</a></li>
-                            </ul>
-                            
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main class="container">
-        <!-- DIV DE CATEGORIAS -->
-         <div class="col-md-3 product-price" ng-show="main.muestraCategoria">
-            <div class=" rsidebar span_1_of_left" >
-
-                <div class="of-left">
-                    <h3 class="cate">Categorias</h3>
-                </div>
-
-                <ul class="menu">
-                    <li ng-repeat="categoria in main.listado_productos" >
-                        <a href="#" slide-toggle="#row_{{$index}}" ng-init="productosCtrl.someMethod(categoria.name, $element)">{{ categoria.name }}</a>
-                        <div id="row_{{$index}}" class="slideable" style="pointer-events:none;">
-                            <ul>
-                                <li  ng-repeat="subcategoria in categoria.sub">
-                                    <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-
-            </div>
-        </div>		
-        <!-- ANGULAR VIEWS -->
-        <div ng-view></div>
-    </main>
-
+    
+    <div>
+        <img src="assets/img/pagina_en_construccion.jpg" style="width:100%" alt="">
+    </div>
+   
 </body>
 </html>
