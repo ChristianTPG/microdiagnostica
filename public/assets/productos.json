@@ -14,20 +14,20 @@
                                 },
                                 {   
                                     "name": "DiluFlow Pro",
-                                    "img": "assets/img/productos/Equipos/Dilutores Gravimétricos/DiluFlow Pro/DiluFlow Pro.jpg",
+                                    "img": "assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Pro/DiluFlow Pro.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "DiluFlow Elite 1Kg", 
-                                    "img": "assets/img/productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 1 kg/DiluFlow Elite 1 kg.jpg",
+                                    "img": "assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 1 kg/DiluFlow Elite 1 kg.jpg",
                                     "descripcion":  "BagMixer Premium Pack es la mejor y mas rapida manera para equipar su laboratorio. Bag Mixer 400 es un          homogeneizador de laboratorio facil de uso y potente. Adaptado a todo tipo de aplicaciones y con una garantia de la extraccion de bacterias optima, evita asi todo riesgo de contaminacion cruzada",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "DiluFlow Elite 5Kg", 
-                                    "img": "assets/img/productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 5 kg/DiluFlow Elite 5 kg.jpg",
+                                    "img": "assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 5 kg/DiluFlow Elite 5 kg.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -38,7 +38,7 @@
                         "sub":[
                                 {   
                                     "name": "Gama MiniMix 100",
-                                    "img": "assets/img/productos/Equipos/Homogeneizadores/Gama MiniMix (100)/Gama MiniMix.jpg", 
+                                    "img": "assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/Gama MiniMix.jpg", 
                                     "sub":  [
                                                 { 
                                                     "name": "MiniMix P CC", 
@@ -61,7 +61,7 @@
                                 },
                                 {   
                                     "name": "Gama BagMixer 400", 
-                                    "img": "assets/img/productos/Equipos/Homogeneizadores/Gama BagMixer (400)/BagMixer 400 CC/BagMixer 400 CC.jpg",
+                                    "img": "assets/img/Productos/Equipos/Homogeneizadores/Gama BagMixer (400)/BagMixer 400 CC/BagMixer 400 CC.jpg",
                                     "sub":  [
                                                 { 
                                                     "name": "BagMixer 400 P", 
@@ -92,7 +92,7 @@
                                 },
                                 {   
                                     "name": "Gama JumboMix 3500", 
-                                    "img": "assets/img/productos/Equipos/Homogeneizadores/Gama JumboMix (3500)/Gama JumboMix.jpg",
+                                    "img": "assets/img/Productos/Equipos/Homogeneizadores/Gama JumboMix (3500)/Gama JumboMix.jpg",
                                     "sub":  [
                                                 { 
                                                     "name": "JumboMix WarmMix", 
@@ -119,13 +119,13 @@
                         "sub":[
                                 {   
                                     "name": "FlexiPumb", 
-                                    "img": "assets/img/productos/Equipos/Bombas Peristálticas/FlexiPump/FlexiPump.jpg",
+                                    "img": "assets/img/Productos/Equipos/Bombas Peristálticas/FlexiPump/FlexiPump.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "FlexiPumb Pro", 
-                                    "img": "assets/img/productos/Equipos/Bombas Peristálticas/FlexiPump Pro/FlexiPump Pro.jpg",
+                                    "img": "assets/img/Productos/Equipos/Bombas Peristálticas/FlexiPump Pro/FlexiPump Pro.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -136,13 +136,13 @@
                          "sub":[
                                 {   
                                     "name": "EasySpiral", 
-                                    "img": "assets/img/productos/Equipos/Sembradores Automáticos/EasySpiral/EasySpiral.jpg",
+                                    "img": "assets/img/Productos/Equipos/Sembradores Automáticos/EasySpiral/EasySpiral.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "EasySpiral Dilute", 
-                                    "img": "assets/img/productos/Equipos/Sembradores Automáticos/EasySpiral Dilute/EasySpiral Dilute.jpg",
+                                    "img": "assets/img/Productos/Equipos/Sembradores Automáticos/EasySpiral Dilute/EasySpiral Dilute.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -153,31 +153,31 @@
                          "sub":[
                                 {   
                                     "name": "Scan 100", 
-                                    "img": "assets/img/productos/Equipos/Contadores de Colonias/Scan 100/Scan 100.jpg",
+                                    "img": "assets/img/Productos/Equipos/Contadores de Colonias/Scan 100/Scan 100.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "Scan 300", 
-                                    "img": "assets/img/productos/Equipos/Contadores de Colonias/Scan 300/Scan 300.jpg",
+                                    "img": "assets/img/Productos/Equipos/Contadores de Colonias/Scan 300/Scan 300.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "Scan 500", 
-                                    "img": "assets/img/productos/Equipos/Contadores de Colonias/Scan 500/Scan 500.jpg",
+                                    "img": "assets/img/Productos/Equipos/Contadores de Colonias/Scan 500/Scan 500.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "Scan 1200", 
-                                    "img": "assets/img/productos/Equipos/Contadores de Colonias/Scan 1200/Scan 1200.jpg",
+                                    "img": "assets/img/Productos/Equipos/Contadores de Colonias/Scan 1200/Scan 1200.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "Scan 4000", 
-                                    "img": "assets/img/productos/Equipos/Contadores de Colonias/Scan 4000/Scan 4000.jpg",
+                                    "img": "assets/img/Productos/Equipos/Contadores de Colonias/Scan 4000/Scan 4000.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -188,19 +188,19 @@
                         "sub":[
                                 {   
                                     "name": "BagMixer Starter Pack", 
-                                    "img": "assets/img/productos/Equipos/Packs BagMixer/BagMixer Starter Pack/Starter Pack.jpg",
+                                    "img": "assets/img/Productos/Equipos/Packs BagMixer/BagMixer Starter Pack/Starter Pack.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagMixer Classic Pack", 
-                                    "img": "assets/img/productos/Equipos/Packs BagMixer/BagMixer Classic Pack/Classic Pack.jpg",
+                                    "img": "assets/img/Productos/Equipos/Packs BagMixer/BagMixer Classic Pack/Classic Pack.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagMixer Premium Pack", 
-                                    "img": "assets/img/productos/Equipos/Packs BagMixer/BagMixer Premium Pack/Premium Pack.jpg",
+                                    "img": "assets/img/Productos/Equipos/Packs BagMixer/BagMixer Premium Pack/Premium Pack.jpg",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -211,37 +211,37 @@
                         "sub":[
                                 {   
                                     "name": "Gama PetriPile",
-                                    "img": "assets/img/pito1.jpg", 
+                                    "img": "assets/img/down.png", 
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagSeal", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagOpen", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagClip", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagRack", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagPipet y BagTips", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -257,7 +257,7 @@
                         "sub":[
                                 {   
                                     "name": "RollBag 1300", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -268,19 +268,19 @@
                         "sub":[
                                 {   
                                     "name": "BagLight Multilayer", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagLight HD Polysilk",
-                                    "img": "assets/img/pito1.jpg", 
+                                    "img": "assets/img/down.png", 
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagLight Polysilk", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -291,25 +291,25 @@
                         "sub":[
                                 {   
                                     "name": "BagPage XR", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagPage R", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagPage F", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagPage +", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -320,19 +320,19 @@
                         "sub":[
                                 {   
                                     "name": "BagFilter Pull-Up", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagFilter S", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "BagFilter P", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
@@ -363,19 +363,19 @@
                         "sub":[
                                 {   
                                     "name": "50 mm", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "Placas de Contacto 65 mm", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 },
                                 {   
                                     "name": "90 mm", 
-                                    "img": "assets/img/pito1.jpg",
+                                    "img": "assets/img/down.png",
                                     "codigo": "2201:30",
 									"sub": [] 
                                 }
