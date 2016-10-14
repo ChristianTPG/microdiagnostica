@@ -1,6 +1,6 @@
 angular.module('detalleProductoCtrl',['productosData','angularSlideables'])
 
-.controller('detalleProductoController', function($http, pathService, $routeParams) {
+.controller('detalleProductoController', function($http, pathService, $routeParams, $sce) {
 
     var vm = this;
     vm.tab_seleccionada = 1;
@@ -9,6 +9,7 @@ angular.module('detalleProductoCtrl',['productosData','angularSlideables'])
     vm.producto_name = $routeParams.producto;
     vm.producto;
     vm.seleccionado;
+    vm.descripcionProductoHtml;
     
     var xpath = '//*[name="'+vm.productos_categoria+'"]//*[name= "'+vm.productos_subcategoria+'"]//*[name= "'+ vm.producto_name +'"]';
     
@@ -16,11 +17,15 @@ angular.module('detalleProductoCtrl',['productosData','angularSlideables'])
         vm.listado_productos = data;
         vm.producto = JSON.search(vm.listado_productos,xpath)[0];
         vm.seleccionado = vm.producto.sub.length > 0 ? vm.producto.sub[0] : vm.producto
-        vm.breadcrumb_seleccionado =  vm.producto.sub.length > 0 ? (" > "+ vm.seleccionado.name) : "";
-        vm.breadcrumb = "Productos > "+vm.productos_categoria+" > "+vm.productos_subcategoria+" > "+ vm.producto_name + vm.breadcrumb_seleccionado;
+        
+        vm.descripcionProductoHtml = $sce.trustAsHtml(vm.seleccionado.descripcion);
+        vm.especificacionesProductoHtml = $sce.trustAsHtml(vm.seleccionado.especificaciones);
     });
     
-    
+    vm.changeData = function(seleccionado) {
+        vm.descripcionProductoHtml = $sce.trustAsHtml(vm.seleccionado.descripcion);
+        vm.especificacionesProductoHtml = $sce.trustAsHtml(vm.seleccionado.especificaciones);
+    }
     
     vm.mostrarTabs = function($event, tab_seleccionada){
         

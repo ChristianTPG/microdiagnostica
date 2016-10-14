@@ -1,6 +1,13 @@
-{{ detalleProductoCtrl.breadcrumb }}
-
 <div class="col-md-9 product-price1">
+    <div class="bc">
+        <label class="bc-item">Productos</label>
+        <i class="glyphicon glyphicon-dot blue-dot"> </i>
+        <label class="bc-item">{{detalleProductoCtrl.productos_categoria}}</a>
+        <i class="glyphicon glyphicon-dot purple-dot"> </i>
+        <label class="bc-item">{{detalleProductoCtrl.productos_subcategoria}}</a>
+        <i class="glyphicon glyphicon-dot orange-dot"> </i>
+        <label class="bc-item">{{detalleProductoCtrl.producto_name}}</a>
+    </div>
     <div class="clearfix"></div>
 
     <div class="col-md-5 single-top" style="overflow: hidden; position: relative;">	
@@ -8,19 +15,15 @@
     </div>
     <div class="col-md-7 single-top-in simpleCart_shelfItem">
         <div class="single-para ">
-            <h4>{{ detalleProductoCtrl.seleccionado.name }}</h4>
+            <p class="product-title">{{ detalleProductoCtrl.seleccionado.name }}</p>
             <div class="available" >
                <ul>
                    <li ng-show="detalleProductoCtrl.producto.sub.length > 0">
-                       <div class="col-md-1">
-                            Modelo
-                       </div>
-                       <div class="col-md-11">
-                           <select ng-model="detalleProductoCtrl.seleccionado" ng-options="x.name for x in detalleProductoCtrl.producto.sub" class="form-control"></select>
-                       </div>
+                       <select ng-model="detalleProductoCtrl.seleccionado" ng-options="x.name for x in detalleProductoCtrl.producto.sub" class="form-control" ng-change="detalleProductoCtrl.changeData(detalleProductoCtrl.seleccionado)" ></select>
                    </li>
-                   <li ng-show="detalleProductoCtrl.seleccionado.descripcion">
-                       {{ detalleProductoCtrl.seleccionado.descripcion }}
+                   
+                   <li ng-show="detalleProductoCtrl.seleccionado.descripcion" >
+                       <div class="descripcion" ng-bind-html="detalleProductoCtrl.descripcionProductoHtml"></div>
                    </li>
                </ul>
                
@@ -37,7 +40,7 @@
         <nav>
             <ul class="cd-tabs-navigation" >
                 <li>
-                    <a data-content="fashion" ng-click="detalleProductoCtrl.mostrarTabs($event,1)" class="selected"  href>Description </a>
+                    <a data-content="fashion" ng-click="detalleProductoCtrl.mostrarTabs($event,1)" class="selected"  href>Especificaciones</a>
                 </li>
                 <li>
                     <a data-content="cinema" ng-click="detalleProductoCtrl.mostrarTabs($event,2)" class="" href>Addtional Informatioan</a>
@@ -49,11 +52,7 @@
         </nav>
         <ul class="cd-tabs-content">
             <li data-content="fashion" ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 1}">
-                <div  >
-                    <p > 
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined 
-                    </p>
-                </div>
+                <div class="especificaciones" ng-bind-html="detalleProductoCtrl.especificacionesProductoHtml"></div>
             </li>
             <li data-content="cinema" ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 2}">
                 <div class="facts1" >

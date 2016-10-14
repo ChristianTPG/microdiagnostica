@@ -102,7 +102,6 @@ h1,h2,h3,h4,h5,h6,label,p{
   display: inline-block;
 }
 .header{
-/*    background: url(../images/banner.jpg) no-repeat 0px 0px;*/
     width: 100%;
     background-size: cover;
     min-height: 0px;
@@ -567,7 +566,7 @@ color: #242424;
 /*--footer--*/
 .footer{
 	background: #FAFAFA;
-	padding: 4em 0 0;
+/*	padding: 4em 0 0;*/
 }
 .footer-top h3,.footer-middle h3{
 	color:#010101;
@@ -2649,7 +2648,6 @@ li.ring-in img{
 	}
 	.header5 {
 	    min-height: 21px !important;
-	    background: url(../images/banner.jpg) no-repeat 0px 0px;
 	}
 	.search-in {
 	  width: 8%;
@@ -3564,7 +3562,7 @@ li.ring-in img{
 	  font-size: 4em;
 	  }
 	 .footer {
-	  padding: 2em 0 0;
+/*	  padding: 2em 0 0;*/
 	}
 	.bottom-grid {
 	  margin-bottom: 2em;
@@ -3707,14 +3705,12 @@ li.ring-in img{
     width: 45%;
 	}
 	.header {
-/*    background: url(../images/banner.jpg) no-repeat 0px 0px;*/
     background-size: cover;
     min-height: 0px;
 	}
 	.header5 {
 		min-height: 25px !important;
 	    background-size: 100% 100%;
-	    background: url(../images/banner.jpg) no-repeat 0px 0px;
 	}
 	.sap_tabs {
 	    padding: 0em 0 1em;
@@ -3895,7 +3891,7 @@ li.ring-in img{
 	  padding-bottom: 0;
 	}
 	.footer {
-	  padding: 0em 0 0;
+/*	  padding: 0em 0 0;*/
 	}
 	.footer-top h3, .footer-middle h3 {
 	  width: 100%;

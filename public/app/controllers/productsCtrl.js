@@ -11,6 +11,7 @@ angular.module('productosCtrl',['productosData','angularSlideables'])
     $http.get(pathService.path).success(function(data) {
         vm.listado_productos = data;
         vm.productos = JSON.search(vm.listado_productos,xpath);
+        vm.breadcrumb = "Productos > "+vm.productos_categoria+" > "+vm.productos_subcategoria;
     });
     
 })

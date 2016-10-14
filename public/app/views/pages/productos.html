@@ -1,4 +1,12 @@
 <div class="col-md-9 product-price1" >
+    <div class="bc">
+        <label class="bc-item">Productos</label>
+        <i class="glyphicon glyphicon-dot blue-dot"> </i>
+        <label class="bc-item">{{productosCtrl.productos_categoria}}</a>
+        <i class="glyphicon glyphicon-dot purple-dot"> </i>
+        <label class="bc-item">{{productosCtrl.productos_subcategoria}}</a>
+    </div>
+    
     <div class="col-md-4 chain-grid  simpleCart_shelfItem" ng-repeat="producto in productosCtrl.productos">
        
         <div class="grid-span-1">
@@ -15,7 +23,7 @@
             <a href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}">{{ producto.name }}</a>
             <div class="star-price">
                 <div class="price-at-bottom ">
-                    <span class="item_price">cod. tu vieja</span>
+                    <span class="item_price">{{ producto.codigo }}</span>
                 </div>
                 <div class="clearfix"> </div>
             </div>

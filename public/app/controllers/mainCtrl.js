@@ -5,6 +5,7 @@ angular.module('mainCtrl', [])
     var vm = this;
     
     vm.muestraCategoria = false;
+    vm.showHome = true;
     
     vm.viewsConCategoria = ['app/views/pages/detalleProducto.html','app/views/pages/productos.html'];
     
@@ -13,7 +14,7 @@ angular.module('mainCtrl', [])
     $rootScope.$on('$routeChangeStart', function(event, next, prev){
         
         vm.muestraCategoria = $.inArray(next.templateUrl, vm.viewsConCategoria) >= 0;
-    
+        vm.showHome = $.inArray(next.templateUrl,['app/views/pages/home.html']) >= 0;
     });
     
     
