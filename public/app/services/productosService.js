@@ -2,7 +2,7 @@
  angular.module('productosData', [])
    .factory('pathService', function () {
         return {
-           path: 'assets/productos.json'
+           path: 'public/assets/productos.json'
         };
    });
 

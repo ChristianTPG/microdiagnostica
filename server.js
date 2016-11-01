@@ -32,7 +32,7 @@ app.use(morgan('dev'));
 
 // set static files location
 // used for requests that our frontend will make
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/'));
 
 
 // ROUTES FOR OUR API

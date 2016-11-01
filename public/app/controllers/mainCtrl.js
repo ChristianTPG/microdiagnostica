@@ -7,14 +7,14 @@ angular.module('mainCtrl', [])
     vm.muestraCategoria = false;
     vm.showHome = true;
     
-    vm.viewsConCategoria = ['app/views/pages/detalleProducto.html','app/views/pages/productos.html'];
+    vm.viewsConCategoria = ['public/app/views/pages/detalleProducto.html','public/app/views/pages/productos.html'];
     
     
     //verifica si debe mostrarse el arbol de categorías
     $rootScope.$on('$routeChangeStart', function(event, next, prev){
         
         vm.muestraCategoria = $.inArray(next.templateUrl, vm.viewsConCategoria) >= 0;
-        vm.showHome = $.inArray(next.templateUrl,['app/views/pages/home.html']) >= 0;
+        vm.showHome = $.inArray(next.templateUrl,['public/app/views/pages/home.html']) >= 0;
     });
     
     

@@ -84,7 +84,7 @@ html * :not(.glyphicon)
 }
 
 .main {
-    background: url(/assets/img/maqueta-home.jpg) no-repeat center;
+    background: url(/public/assets/img/maqueta-home.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

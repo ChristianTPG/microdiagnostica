@@ -4,29 +4,29 @@ angular.module('app.routes', ['ngRoute'])
     $routeProvider
     // home page route
     .when('/', {
-        templateUrl: 'app/views/pages/home.html'
+        templateUrl: 'public/app/views/pages/home.html'
     })
     
     //nosotros page
     .when('/nosotros', {
-        templateUrl: 'app/views/pages/nosotros.html'
+        templateUrl: 'public/app/views/pages/nosotros.html'
     })
     
     //contacto page
     .when('/contacto', {
-        templateUrl: 'app/views/pages/contacto.html'
+        templateUrl: 'public/app/views/pages/contacto.html'
     }) 
     
     //PRODUCTOS page
     .when('/productos/:categoria/:subcategoria', {
-        templateUrl: 'app/views/pages/productos.html',
+        templateUrl: 'public/app/views/pages/productos.html',
         controller: 'productosController',
         controllerAs: 'productosCtrl'
     })
     
     //Detalle PRODUCTOS page
     .when('/detalleProducto/:categoria/:subcategoria/:producto', {
-        templateUrl: 'app/views/pages/detalleProducto.html',
+        templateUrl: 'public/app/views/pages/detalleProducto.html',
         controller: 'detalleProductoController',
         controllerAs: 'detalleProductoCtrl'
     })
@@ -34,7 +34,7 @@ angular.module('app.routes', ['ngRoute'])
     
     // show all users
     .when('/users', {
-        templateUrl: 'app/views/pages/users/all.html',
+        templateUrl: 'public/app/views/pages/users/all.html',
         controller: 'userController',
         controllerAs: 'user'
     });
