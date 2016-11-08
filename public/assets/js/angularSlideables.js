@@ -34,12 +34,24 @@ angular.module('angularSlideables', [])
             element.bind('click', function() {
                 var target = document.querySelector(attrs.slideToggle);
                 var content = target.querySelector('.slideable_content');
+                
+                /*AGREGADOS DE MIERDA*/
+                var parent = document.querySelector("#mobilerow");
+                
                 if(!attrs.expanded) {
                     content.style.border = '1px solid rgba(0,0,0,0)';
                     var y = content.clientHeight;
                     content.style.border = 0;
                     target.style.height = y + 'px';
+                    
+                    /*AGREGADOS DE MIERDA*/
+                    parent.style.height = parent.clientHeight + y + 'px';
+                    
                 } else {
+                    var y = content.clientHeight;
+                    /*AGREGADOS DE MIERDA*/
+                    parent.style.height = parent.clientHeight - y + 'px';
+                    
                     target.style.height = '0px';
                 }
                 attrs.expanded = !attrs.expanded;

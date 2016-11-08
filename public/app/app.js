@@ -7,7 +7,8 @@ angular.module('userApp', [
     'userService',
     'headerCtrl',
     'productosCtrl',
-    'detalleProductoCtrl'
+    'detalleProductoCtrl',
+    'sideCtrl'
 ])
 
 // application configuration to integrate token into requests

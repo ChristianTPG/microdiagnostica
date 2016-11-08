@@ -19,11 +19,11 @@
 <!--    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>-->
 <!--    <link href='//fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>-->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
-            <!--//fonts-->
+    <!--//fonts-->
 
     <!-- JS -->
     <!-- load angular and angular-route via CDN -->
-    <script src="public/assets/libs/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
     <script src="public/assets/libs/angular-route.js"></script>
     <script src="public/assets/libs/angular-animate.js"></script>
     <script src="public/assets/js/jquery-3.1.0.min.js"></script>
@@ -40,6 +40,7 @@
     <script src="public/app/controllers/userCtrl.js"></script>
     <script src="public/app/controllers/productsCtrl.js"></script>
     <script src="public/app/controllers/detalleProductoCtrl.js"></script>
+    <script src="public/app/controllers/sideCtrl.js"></script>
 
     <!-- services -->
     <script src="public/app/services/authService.js"></script>
@@ -63,6 +64,7 @@
 </head>
 	
 <body ng-app="userApp" ng-controller="mainController as main">
+
 
 <!--   <div ng-show='false'>-->
    <header ng-controller="headerController as heman">
@@ -110,7 +112,40 @@
                </div>
            </div>
        </div>
-   </header>
+       
+        <div ng-controller="sideController as sv" class="header-sidenav">
+            <div id="mySidenav" class="sidenav">
+                <div id="first" >
+                    <a href="javascript:void(0)" class="closebtn" ng-click="sv.closeNav()">&times;</a>
+                    <ul class="menu">
+                       <li>
+                            <a href="/">HOME</a>
+                            <a href="#" slide-toggle="#mobilerow">PRODUCTOS</a>
+                            <div id="mobilerow" class="slideable" style="">
+                                <ul class="menu">
+                                    <li ng-repeat="categoria in main.listado_productos" >
+                                        <a href="#" slide-toggle="#mobilerow2_{{$index}}">{{ categoria.name }}</a>
+                                        <div id="mobilerow2_{{$index}}" class="slideable" style="pointer-events:none;">
+                                            <ul>
+                                                <li  ng-repeat="subcategoria in categoria.sub">
+                                                   <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="/nosotros">NOSOTROS</a>
+                            <a href="/contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>       
+            <!-- Use any element to open the sidenav -->
+            <span ng-click="sv.openNav()">&#9776; open</span>
+        </div>
+    </header>
+
 
    <main ng-class="{container: true, main: main.showHome}">
        <!-- DIV DE CATEGORIAS -->
@@ -123,7 +158,7 @@
 
                <ul class="menu">
                    <li ng-repeat="categoria in main.listado_productos" >
-                       <a href="#" slide-toggle="#row_{{$index}}" ng-init="productosCtrl.someMethod(categoria.name, $element)">{{ categoria.name }}</a>
+                       <a href="#" slide-toggle="#row_{{$index}}">{{ categoria.name }}</a>
                        <div id="row_{{$index}}" class="slideable" style="pointer-events:none;">
                            <ul>
                                <li  ng-repeat="subcategoria in categoria.sub">
