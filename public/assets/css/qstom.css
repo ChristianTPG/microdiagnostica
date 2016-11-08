@@ -24,6 +24,12 @@ html * :not(.glyphicon)
     }
 }
 
+@media (max-width: 992px) {
+    .categorias{
+        display: none !important;
+    }
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
