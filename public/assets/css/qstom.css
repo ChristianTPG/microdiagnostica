@@ -16,6 +16,7 @@ html, body {
     border-bottom: 6px solid;
     border-bottom-color: #D0D1D2;
     border-right-width: 30px !important;
+    
 }
 
 @media (min-width: 992px) {
@@ -176,7 +177,7 @@ html, body {
 }
 
 .banner-mobile {
-    padding-top: 65px;
+    margin-top: 65px;
 }
 
 .banner-mobile>img {
@@ -345,6 +346,10 @@ h3.cate {
 
 .cd-tabs-navigation a.selected{
     background: #22aaaf !important;
+}
+
+.menu-superior {
+    margin-top: 37px !important;
 }
 
 
