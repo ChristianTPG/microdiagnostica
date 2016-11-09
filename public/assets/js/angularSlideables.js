@@ -18,7 +18,8 @@ angular.module('angularSlideables', [])
                     'height': '0px',
                     'transitionProperty': 'height',
                     'transitionDuration': attrs.duration,
-                    'transitionTimingFunction': attrs.easing
+                    'transitionTimingFunction': attrs.easing,
+                    'white-space': 'nowrap'
                 });
             };
         }

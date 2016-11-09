@@ -5,6 +5,13 @@ html * :not(.glyphicon)
     font-weight: 100 ;
 }
 
+
+html, body {
+    margin: 0;
+    height: 100%;
+    display: table;
+}
+
 .header {    
     border-bottom-width: thick;
     border-bottom: 6px solid;
@@ -16,19 +23,36 @@ html * :not(.glyphicon)
     .header-sidenav{
         display: none !important;
     }
+    
+    .banner-mobile {
+        display: none !important;
+    }
 }
 
 @media (max-width: 992px) {
     .header{
         display: none !important;
     }
-}
-
-@media (max-width: 992px) {
+    
     .categorias{
         display: none !important;
     }
+    
+    .footer{
+        display: none !important;
+    }
+    
+    .banner {
+        display: none !important;
+    }
+    
+    .main {
+        background: none !important;
+        height: auto;
+
+    }
 }
+
 
 /* The side navigation menu */
 .sidenav {
@@ -150,6 +174,15 @@ html * :not(.glyphicon)
 .banner-top>p {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.banner-mobile {
+    padding-top: 65px;
+}
+
+.banner-mobile>img {
+    display: block;
+    margin: 0 auto;
 }
 
 .main {
@@ -319,70 +352,3 @@ h3.cate {
 
 
 
-
-/*
-.main_menu_tabs {
-    border-bottom-width: thick;
-    border-bottom: 6px solid;
-    border-right-width: 30px !important;
-    padding-bottom: 50px !important;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    margin-left: 30px !important;
-    margin-right: 30px !important;
-    margin-bottom: -80px;
-    border-bottom-color: #D0D1D2;
-    position: relative;
-    display:block;
-}
-
-.main_menu_tabs.home:hover {
-
-    border-bottom-color: #783081;
-}
-
-.main_menu_tabs.productos:hover{
-    border-bottom-color: #2CADB0;
-}
-
-.main_menu_tabs.nosotros:hover{
-    border-bottom-color: #E24330;
-}
-
-.main_menu_tabs.contacto:hover{
-    border-bottom-color: #21A35D;
-}
-
-
-
-@media(max-width:1280px){
-
-    .main_menu_tabs {
-        border-right-width: 30px !important;
-        padding-bottom: 50px !important;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        margin-left: 30px !important;
-        margin-right: 30px !important;
-        margin-bottom: -80px;
-    }
-}
-
-@media(max-width:1200px){
-    .main_menu_tabs {
-        margin-bottom: -100px;
-        padding-bottom: 50px !important;
-        margin-top: 2px !important;
-    }
-
-}
-
-
-@media(max-width:1024px){
-    .main_menu_tabs {
-        margin-bottom: -100px;
-        padding-bottom: 43px !important;
-    }
-    
-}
-*/
