@@ -1,4 +1,4 @@
-<div class="col-md-9 product-price1" >
+<div class="col-md-9 col-xs-12 product-price1" >
     <div class="bc">
         <label class="bc-item">Productos</label>
         <i class="glyphicon glyphicon-dot blue-dot"> </i>
@@ -7,7 +7,7 @@
         <label class="bc-item">{{productosCtrl.productos_subcategoria}}</a>
     </div>
     
-    <div class="col-md-4 chain-grid  simpleCart_shelfItem" ng-repeat="producto in productosCtrl.productos">
+    <div class="col-md-4 col-xs-6 chain-grid  simpleCart_shelfItem" ng-repeat="producto in productosCtrl.productos">
        
         <div class="grid-span-1">
             <a  href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}"><img class="img-responsive " src="{{ producto.img }}" alt=" ">

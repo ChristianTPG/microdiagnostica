@@ -2572,10 +2572,12 @@ li.ring-in img{
 	}
 	/*--product--*/
 	
+/*
 	.col-md-4.chain-grid{
 	float:left;
 	width:33.3%;
 	}
+*/
 	.product-price {
 	  width: 50%;
 	}
@@ -2838,10 +2840,12 @@ li.ring-in img{
 	}
 	/*--product--*/
 	
+/*
 	.col-md-4.chain-grid{
 	float:left;
 	width:33.3%;
 	}
+*/
 	.product-price {
 	  width: 50%;
 	}
@@ -4037,13 +4041,17 @@ li.ring-in img{
 	.sort select {
 	  font-size: 0.8em;
 	}
+/*
 	.col-md-4.chain-grid {
 	    padding: 0 4px;
   width: 50%;
 	}
+*/
+/*
 	.col-md-4.chain-grid:nth-child(3) {
 	  display: none;
 	}
+*/
 	.link {
 	  padding: 3.8em 0 0;
 	}
