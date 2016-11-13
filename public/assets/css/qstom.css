@@ -19,6 +19,7 @@ html, body {
     
 }
 
+/* DESKTOP */
 @media (min-width: 992px) {
     .header-sidenav{
         display: none !important;
@@ -29,6 +30,7 @@ html, body {
     }
 }
 
+/* MOBILE */
 @media (max-width: 992px) {
     .header{
         display: none !important;
@@ -50,6 +52,9 @@ html, body {
         background: none !important;
         height: auto;
 
+    }
+    .bc {
+        display: none !important;
     }
 }
 
