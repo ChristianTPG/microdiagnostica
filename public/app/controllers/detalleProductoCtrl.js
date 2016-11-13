@@ -19,11 +19,14 @@ angular.module('detalleProductoCtrl',['productosData','angularSlideables'])
         vm.seleccionado = vm.producto.sub.length > 0 ? vm.producto.sub[0] : vm.producto
         
         vm.descripcionProductoHtml = $sce.trustAsHtml(vm.seleccionado.descripcion);
+        vm.caracteristicasProductoHtml = $sce.trustAsHtml(vm.seleccionado.caracteristicas);
         vm.especificacionesProductoHtml = $sce.trustAsHtml(vm.seleccionado.especificaciones);
+
     });
     
     vm.changeData = function(seleccionado) {
         vm.descripcionProductoHtml = $sce.trustAsHtml(vm.seleccionado.descripcion);
+        vm.caracteristicasProductoHtml = $sce.trustAsHtml(vm.seleccionado.caracteristicas);
         vm.especificacionesProductoHtml = $sce.trustAsHtml(vm.seleccionado.especificaciones);
     }
     

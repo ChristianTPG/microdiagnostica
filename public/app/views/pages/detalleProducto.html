@@ -40,10 +40,10 @@
         <nav>
             <ul class="cd-tabs-navigation" >
                 <li>
-                    <a data-content="fashion" ng-click="detalleProductoCtrl.mostrarTabs($event,1)" class="selected"  href>Especificaciones</a>
+                    <a ng-click="detalleProductoCtrl.mostrarTabs($event,1)" class="selected"  href>Características</a>
                 </li>
                 <li>
-                    <a data-content="cinema" ng-click="detalleProductoCtrl.mostrarTabs($event,2)" class="" href>Addtional Informatioan</a>
+                    <a ng-click="detalleProductoCtrl.mostrarTabs($event,2)" class="" href>Especificaciones</a>
                 </li>
                 <li ng-show="detalleProductoCtrl.seleccionado.video">
                     <a data-content="television" ng-click="detalleProductoCtrl.mostrarTabs($event,3)" class="" href>Video</a>
@@ -51,22 +51,11 @@
             </ul> 
         </nav>
         <ul class="cd-tabs-content">
-            <li data-content="fashion" ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 1}">
-                <div class="especificaciones" ng-bind-html="detalleProductoCtrl.especificacionesProductoHtml"></div>
+            <li ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 1}">
+                <div class="tab-detalle-producto" ng-bind-html="detalleProductoCtrl.caracteristicasProductoHtml"></div>
             </li>
-            <li data-content="cinema" ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 2}">
-                <div class="facts1" >
-                    <div class="color">
-                        <p>Color</p>
-                        <span >Blue, Black, Red</span>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="color">
-                        <p>Size</p>
-                        <span >S, M, L, XL</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
+            <li ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 2}">
+                <div class="tab-detalle-producto" ng-bind-html="detalleProductoCtrl.especificacionesProductoHtml"></div>
             </li>
             
             <li data-content="television"  ng-class="{tab_selected : detalleProductoCtrl.tab_seleccionada === 3}">
