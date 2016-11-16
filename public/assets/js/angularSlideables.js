@@ -26,12 +26,12 @@ angular.module('angularSlideables', [])
     };
 })
 
-.directive('slideToggle', function() {
+    .directive('slideToggle', function($timeout) {
     return {
         restrict: 'A',
         link: function(scope, element, attrs) {
             var target = document.querySelector(attrs.slideToggle);
-            attrs.expanded = false;
+//            attrs.expanded = false;
             element.bind('click', function() {
                 var target = document.querySelector(attrs.slideToggle);
                 var content = target.querySelector('.slideable_content');
@@ -39,7 +39,16 @@ angular.module('angularSlideables', [])
                 /*AGREGADOS DE MIERDA*/
                 var parent = document.querySelector("#mobilerow");
                 
-                if(!attrs.expanded) {
+//                if(!attrs.expanded) {
+                
+                //INICIALIZO EL ATRIBUTO EXPANDED EN FALSE
+                if(!target.getAttribute("expanded"))
+                    target.setAttribute("expanded", "false");
+                
+                
+                var expanded = target.getAttribute("expanded") === "true";
+                
+                if(!expanded) {
                     content.style.border = '1px solid rgba(0,0,0,0)';
                     var y = content.clientHeight;
                     content.style.border = 0;
@@ -55,7 +64,10 @@ angular.module('angularSlideables', [])
                     
                     target.style.height = '0px';
                 }
-                attrs.expanded = !attrs.expanded;
+                
+                target.setAttribute("expanded",expanded ? "false" : "true")
+//                attrs.expanded = !attrs.expanded;
+//                    attrs.expanded = !attrs.expanded;
             });
         }
     }

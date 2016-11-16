@@ -23,6 +23,7 @@
 
     <!-- JS -->
     <!-- load angular and angular-route via CDN -->
+<!--    <script src="public/assets/libs/angular.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
     <script src="public/assets/libs/angular-route.js"></script>
     <script src="public/assets/libs/angular-animate.js"></script>
@@ -80,29 +81,29 @@
                        <!---->
                        <div class="menu-superior col-md-8 col-sm-4">
                            <ul class="memenu skyblue">
-                               <li class="active">
-                                   <a href="/" class="main_menu_tabs home">HOME</a>
+                               <li ng-class="heman.active === heman.menu[0] ? 'active' : 'grid'">
+                                   <a href="/" class="main_menu_tabs home" ng-click="heman.setActive( heman.menu[0] )">{{ heman.menu[0] }}</a>
                                </li>
-                               <li class="grid">
-                                    <a href="#" class="main_menu_tabs productos">PRODUCTOS</a>
+                               <li ng-class="heman.active === heman.menu[1] ? 'active' : 'grid'">
+                                   <a href="#"  class="main_menu_tabs productos">{{ heman.menu[1] }}</a>
                                     <div class="mepanel">
                                        <div class="row">
                                            <div class="col1 me-one" ng-repeat="producto in heman.productos">
                                                <h4>{{ producto.name }}</h4>
                                                <ul>
                                                    <li ng-repeat="sub in producto.sub">
-                                                       <a href="/productos/{{ producto.name }}/{{ sub.name }}">{{ sub.name }}</a>
+                                                       <a href="/productos/{{ producto.name }}/{{ sub.name }}" ng-click="heman.setActive( heman.menu[1] )">{{ sub.name }}</a>
                                                    </li>
                                                </ul> 
                                            </div>
                                        </div>
                                     </div>       
                                </li>
-                               <li class="grid">
-                                   <a href="/nosotros" class="main_menu_tabs nosotros">NOSOTROS</a>
+                               <li ng-class="heman.active === heman.menu[2] ? 'active' : 'grid'">
+                                   <a href="/nosotros" class="main_menu_tabs nosotros" ng-click="heman.setActive(heman.menu[2])">{{ heman.menu[2] }}</a>
                                 </li>
-                                <li class="grid">
-                                    <a href="/contacto" class="main_menu_tabs contacto">CONTACTO</a>
+                               <li ng-class="heman.active === heman.menu[3] ? 'active' : 'grid'">
+                                   <a href="/contacto" class="main_menu_tabs contacto" ng-click="heman.setActive( heman.menu[3] )">{{ heman.menu[3] }}</a>
                                 </li>
                            </ul>
 
@@ -127,7 +128,7 @@
                                 <ul class="menu">
                                     <li ng-repeat="categoria in main.listado_productos" >
                                         <a href="#" slide-toggle="#mobilerow2_{{$index}}">{{ categoria.name }}</a>
-                                        <div id="mobilerow2_{{$index}}" class="slideable" style="pointer-events:none;">
+                                        <div id="mobilerow2_{{$index}}" class="slideable" style="pointer-events:none;" mobile="true">
                                             <ul>
                                                 <li  ng-repeat="subcategoria in categoria.sub">
                                                    <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
@@ -172,7 +173,7 @@
                        <div id="row_{{$index}}" class="slideable" style="pointer-events:none;">
                            <ul>
                                <li  ng-repeat="subcategoria in categoria.sub">
-                                   <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
+                                   <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;" >{{ subcategoria.name }}</a>
                                </li>
                            </ul>
                        </div>

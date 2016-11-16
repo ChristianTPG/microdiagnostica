@@ -382,10 +382,30 @@ h3.cate {
 }
 
 .menu-superior {
-    margin-top: 37px !important;
+    padding-top: 37px !important;
+    height: 100px !important;
 }
 
+.memenu {
+    height: 100% !important
+}
 
+.memenu li{
+    height: 100% !important
+}
 
+.slideable .active {
+    color: #22aaaf !important;
+} 
 
+.mepanel .active {
+    color: black !important;
+} 
 
+.hideMenu {
+    display: none;
+}
+
+.displayMenu {
+    display: block;
+}
