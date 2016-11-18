@@ -123,15 +123,15 @@
                     <ul class="menu">
                        <li>
                             <a href="/">HOME</a>
-                            <a href="#" slide-toggle="#mobilerow">PRODUCTOS</a>
-                            <div id="mobilerow" class="slideable" style="">
+                            <a href="#">PRODUCTOS</a>
+                            <div id="mobilerow" style="">
                                 <ul class="menu">
                                     <li ng-repeat="categoria in main.listado_productos" >
                                         <a href="#" slide-toggle="#mobilerow2_{{$index}}">{{ categoria.name }}</a>
                                         <div id="mobilerow2_{{$index}}" class="slideable" style="pointer-events:none;" mobile="true">
                                             <ul>
                                                 <li  ng-repeat="subcategoria in categoria.sub">
-                                                   <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
+                                                    <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
                                                 </li>
                                             </ul>
                                         </div>

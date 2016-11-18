@@ -37,7 +37,7 @@ angular.module('angularSlideables', [])
                 var content = target.querySelector('.slideable_content');
                 
                 /*AGREGADOS DE MIERDA*/
-                var parent = document.querySelector("#mobilerow");
+                //var parent = document.querySelector("#mobilerow");
                 
 //                if(!attrs.expanded) {
                 
@@ -55,19 +55,18 @@ angular.module('angularSlideables', [])
                     target.style.height = y + 'px';
                     
                     /*AGREGADOS DE MIERDA*/
-                    parent.style.height = parent.clientHeight + y + 'px';
+                    //parent.style.height = parent.clientHeight + y + 'px';
                     
                 } else {
                     var y = content.clientHeight;
                     /*AGREGADOS DE MIERDA*/
-                    parent.style.height = parent.clientHeight - y + 'px';
+                    //parent.style.height = parent.clientHeight - y + 'px';
                     
                     target.style.height = '0px';
                 }
                 
                 target.setAttribute("expanded",expanded ? "false" : "true")
 //                attrs.expanded = !attrs.expanded;
-//                    attrs.expanded = !attrs.expanded;
             });
         }
     }
