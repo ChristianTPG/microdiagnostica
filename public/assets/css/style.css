@@ -1171,6 +1171,7 @@ i.glyphicon.glyphicon-search {
     background-color: #fff;
     padding: 10px;
     border-radius: 50%;
+    border: #21abae solid 2px;
 }
 ul.round-top i.glyphicon.glyphicon-search {
   background-color: #fff;

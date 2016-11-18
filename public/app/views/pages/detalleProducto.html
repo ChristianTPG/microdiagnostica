@@ -2,11 +2,11 @@
     <div class="bc">
         <label class="bc-item">Productos</label>
         <i class="glyphicon glyphicon-dot blue-dot"> </i>
-        <label class="bc-item">{{detalleProductoCtrl.productos_categoria}}</a>
+        <a class="bc-item-linkeable" href="/productos/{{ detalleProductoCtrl.productos_categoria}}/{{ detalleProductoCtrl.productos_subcategoria }}">{{detalleProductoCtrl.productos_categoria}}</a>
         <i class="glyphicon glyphicon-dot purple-dot"> </i>
-        <label class="bc-item">{{detalleProductoCtrl.productos_subcategoria}}</a>
+        <a class="bc-item-linkeable" href="/productos/{{ detalleProductoCtrl.productos_categoria}}/{{ detalleProductoCtrl.productos_subcategoria }}">{{detalleProductoCtrl.productos_subcategoria}}</a>
         <i class="glyphicon glyphicon-dot orange-dot"> </i>
-        <label class="bc-item">{{detalleProductoCtrl.producto_name}}</a>
+        <label class="bc-item" >{{detalleProductoCtrl.producto_name}}</label>
     </div>
     <div class="clearfix"></div>
 

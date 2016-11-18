@@ -256,7 +256,7 @@ h3.cate {
 }
 
 .chain-grid img {
-    background-color: transparent;
+    background-color: #000000;
     padding: 1px 1px 1px 1px;
 }
 
@@ -281,6 +281,12 @@ h3.cate {
 
 .glyphicon.glyphicon-dot.orange-dot:before {
     color: #e54124;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
 }
 
 .bc {
@@ -337,8 +343,9 @@ h3.cate {
 }
 
 .img-thumbnail:hover {
-    border: 1px solid rgb(34, 170, 175);
+    border: 1px solid rgb(34, 170, 175)
 }
+
 
 .available ul li select {
     margin-left: 0px;
