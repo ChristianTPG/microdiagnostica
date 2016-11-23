@@ -62,7 +62,8 @@
     <script src="public/assets/js/simpleCart.min.js"></script>
 <!--    <script src="public/assets/js/tabs.js"></script>-->
     
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
     
 </head>
 	
@@ -188,12 +189,12 @@
        
 
     <div class="footer">
-        <div class="container footer-container vertical-align">
-            <div class="col-md-4 col-sm-4 footer-top no-pad">
+        <div class="container footer-container">
+            <div class="col-md-4 col-sm-4 col-xs-4 footer-top no-pad">
                 <img src="public/assets/img/down.png" class="img-responsive" alt="">
             </div>
-            <div class="col-md-8 col-sm-8 footer-contenedor-derecho" >
-                <div class="col-md-6 col-sm-6 footer-medio">
+            <div class="col-md-4 col-sm-8 col-xs-8 footer-medio">
+                <div class="footer-margin">
                     <p class="footer-title"> Info de Contacto</p>
                     <br>
                     <p class="footer-paragraph">Simbrón 4728 (C1417EVZ)</p>
@@ -201,16 +202,21 @@
                     <br>
                     <p class="footer-paragraph">(+54 11) 4639-3589</p>
                     <br>
-                    <p class="footer-paragraph">nicolas@microdiagnostica.com.ar</p>
+                    <p class="footer-paragraph">nicolas@microdiagnostica.com.ar</p>   
                 </div>
-                <div class="col-md-6 col-sm-6" ng-controller="headerController as heman">
+            </div>
+            <div class="col-md-4 col-sm-4 footer-derecho" ng-controller="headerController as heman">
+                <div class="footer-margin">
                     <p class="footer-title">Categorias</p>
                     <br>
                     <div ng-repeat="producto in heman.productos">
                         <a href="/productos/{{ producto.name }}/{{ producto.sub[0].name }}" class="footer-paragraph">{{ producto.name }}</a>
-                    </div>
-                </div>    
-            </div>
+                    </div>    
+                </div>
+            </div>    
+        </div>
+        <div class="footer-copyright">
+            <p class="footer-paragraph">Copyright</p>
         </div>
     </div>
 </body>
