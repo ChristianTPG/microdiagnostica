@@ -38,7 +38,7 @@ angular.module('detalleProductoCtrl',['productosData','angularSlideables','boots
         vm.tab_seleccionada = tab_seleccionada;
     }
     
-    vm.openLightboxModal = function () {
+    vm.openLightboxModal = function ($index) {
         Lightbox.openModal(vm.seleccionado.imgs, 0);
     };
 })
