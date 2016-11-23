@@ -11,7 +11,9 @@
     <div class="clearfix"></div>
 
     <div class="col-md-5 single-top" style="overflow: hidden; position: relative;">	
-        <img src="{{ detalleProductoCtrl.seleccionado.img }}" style="max-width: 100%;max-height: 100%;" alt="">
+        <a href="" ng-click="detalleProductoCtrl.openLightboxModal()">
+            <img src="{{ detalleProductoCtrl.seleccionado.imgs[0].url }}" style="max-width: 100%;max-height: 100%;" alt="">
+        </a>
     </div>
     <div class="col-md-7 single-top-in simpleCart_shelfItem">
         <div class="single-para ">

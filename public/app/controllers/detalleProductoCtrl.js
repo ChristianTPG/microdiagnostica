@@ -1,6 +1,6 @@
-angular.module('detalleProductoCtrl',['productosData','angularSlideables'])
+angular.module('detalleProductoCtrl',['productosData','angularSlideables','bootstrapLightbox'])
 
-.controller('detalleProductoController', function($http, pathService, $routeParams, $sce) {
+    .controller('detalleProductoController', function($http, pathService, $routeParams, $sce, Lightbox) {
 
     var vm = this;
     vm.tab_seleccionada = 1;
@@ -37,4 +37,8 @@ angular.module('detalleProductoCtrl',['productosData','angularSlideables'])
         
         vm.tab_seleccionada = tab_seleccionada;
     }
+    
+    vm.openLightboxModal = function () {
+        Lightbox.openModal(vm.seleccionado.imgs, 0);
+    };
 })
