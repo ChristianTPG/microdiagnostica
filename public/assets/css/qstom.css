@@ -234,6 +234,7 @@ html, body {
 
 .banner-mobile {
     margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .banner-mobile>img {
