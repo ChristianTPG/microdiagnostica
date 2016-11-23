@@ -128,7 +128,7 @@
                     <a href="javascript:void(0)" class="closebtn" ng-click="sv.closeNav()">&times;</a>
                     <ul class="menu">
                        <li>
-                            <a href="/">HOME</a>
+                           <a href="/" ng-click="sv.closeNav()">HOME</a>
                             <a href="#">PRODUCTOS</a>
                             <div id="mobilerow" style="">
                                 <ul class="menu">
@@ -137,15 +137,15 @@
                                         <div id="mobilerow2_{{$index}}" class="slideable" style="pointer-events:none;" mobile="true">
                                             <ul>
                                                 <li  ng-repeat="subcategoria in categoria.sub">
-                                                    <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;">{{ subcategoria.name }}</a>
+                                                    <a href="/productos/{{ categoria.name }}/{{ subcategoria.name }}" style="pointer-events:all;" ng-click="sv.closeNav()">{{ subcategoria.name }}</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                            <a href="/nosotros">NOSOTROS</a>
-                            <a href="/contacto">CONTACTO</a>
+                           <a href="/nosotros" ng-click="sv.closeNav()">NOSOTROS</a>
+                           <a href="/contacto" ng-click="sv.closeNav()">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
