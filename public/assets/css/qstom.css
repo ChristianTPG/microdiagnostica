@@ -498,6 +498,22 @@ h3.cate {
     height: 100% !important
 }
 
+.skyblue>li.home-active>a  {
+    color: #7C2B82 !important;
+} 
+
+.skyblue>li.productos-active>a {
+    color: #22AAAF !important;
+} 
+
+.skyblue>li.nosotros-active>a {
+    color: #E54124 !important;
+} 
+
+.skyblue>li.contacto-active>a  {
+    color: #17A258 !important;
+} 
+
 .slideable .active {
     color: #22aaaf !important;
 } 

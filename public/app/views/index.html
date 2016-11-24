@@ -87,10 +87,10 @@
                        <!---->
                        <div class="menu-superior col-md-8 col-sm-4">
                            <ul class="memenu skyblue">
-                               <li ng-class="heman.active === heman.menu[0] ? 'active' : 'grid'">
+                               <li ng-class="heman.active === heman.menu[0] ? 'home-active' : 'grid'">
                                    <a href="/" class="main_menu_tabs home" ng-click="heman.setActive( heman.menu[0] )">{{ heman.menu[0] }}</a>
                                </li>
-                               <li ng-class="heman.active === heman.menu[1] ? 'active' : 'grid'" ng-mouseenter="main.mostrarBienvenidos=false" ng-mouseleave="main.mostrarBienvenidos=true">
+                               <li ng-class="heman.active === heman.menu[1] ? 'productos-active' : 'grid'" ng-mouseenter="main.mostrarBienvenidos=false" ng-mouseleave="main.mostrarBienvenidos=true">
                                    <a href="#"  class="main_menu_tabs productos">{{ heman.menu[1] }}</a>
                                     <div class="mepanel">
                                        <div class="row">
@@ -105,10 +105,10 @@
                                        </div>
                                     </div>       
                                </li>
-                               <li ng-class="heman.active === heman.menu[2] ? 'active' : 'grid'">
+                               <li ng-class="heman.active === heman.menu[2] ? 'nosotros-active' : 'grid'">
                                    <a href="/nosotros" class="main_menu_tabs nosotros" ng-click="heman.setActive(heman.menu[2])">{{ heman.menu[2] }}</a>
                                 </li>
-                               <li ng-class="heman.active === heman.menu[3] ? 'active' : 'grid'">
+                               <li ng-class="heman.active === heman.menu[3] ? 'contacto-active' : 'grid'">
                                    <a href="/contacto" class="main_menu_tabs contacto" ng-click="heman.setActive( heman.menu[3] )">{{ heman.menu[3] }}</a>
                                 </li>
                            </ul>
@@ -207,7 +207,7 @@
                     <br>
                     <p class="footer-paragraph">(+54 11) 4639-3589</p>
                     <br>
-                    <p class="footer-paragraph">nicolas@microdiagnostica.com.ar</p>   
+                    <a href="mailto:nicolas@microdiagnostica.com.ar" class="footer-paragraph">nicolas@microdiagnostica.com.ar</a> 
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 footer-derecho" ng-controller="headerController as heman">
