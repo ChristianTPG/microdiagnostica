@@ -90,7 +90,7 @@
                                <li ng-class="heman.active === heman.menu[0] ? 'active' : 'grid'">
                                    <a href="/" class="main_menu_tabs home" ng-click="heman.setActive( heman.menu[0] )">{{ heman.menu[0] }}</a>
                                </li>
-                               <li ng-class="heman.active === heman.menu[1] ? 'active' : 'grid'">
+                               <li ng-class="heman.active === heman.menu[1] ? 'active' : 'grid'" ng-mouseenter="main.mostrarBienvenidos=false" ng-mouseleave="main.mostrarBienvenidos=true">
                                    <a href="#"  class="main_menu_tabs productos">{{ heman.menu[1] }}</a>
                                     <div class="mepanel">
                                        <div class="row">

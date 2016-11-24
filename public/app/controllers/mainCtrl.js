@@ -4,6 +4,7 @@ angular.module('mainCtrl', [])
     
     var vm = this;
     
+    vm.mostrarBienvenidos = true;
     vm.muestraCategoria = false;
     vm.showHome = true;
     
