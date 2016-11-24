@@ -5,7 +5,6 @@ angular.module('userApp', [
     'mainCtrl',
     'userCtrl',
     'userService',
-    'headerCtrl',
     'productosCtrl',
     'detalleProductoCtrl',
     'sideCtrl'
