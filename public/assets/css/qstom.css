@@ -221,7 +221,7 @@ html, body {
 .banner{
     margin: 0px !important;
     width: 100% !important;
-    height: 450px;
+    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
