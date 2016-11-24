@@ -1,10 +1,10 @@
 angular.module('headerCtrl', ['productosData'])
 
-.controller('headerController', function($http, pathService){
+    .controller('headerController', function($http, pathService, $rootScope){
     
     // bind this to vm (view-model)
     var vm = this;
-    vm.menu = ['HOME', 'PRODUCTOS', 'NOSOTROS', 'CONTACTO']; 
+    vm.menu = ['home', 'productos', 'nosotros', 'contacto']; 
     vm.active = vm.menu[0];
     
    $http.get(pathService.path).success(function(data) {

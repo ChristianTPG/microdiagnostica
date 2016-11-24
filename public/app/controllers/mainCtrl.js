@@ -7,6 +7,8 @@ angular.module('mainCtrl', [])
     vm.mostrarBienvenidos = true;
     vm.muestraCategoria = false;
     vm.showHome = true;
+    vm.menu = ['home', 'productos', 'nosotros', 'contacto']; 
+    vm.active = vm.menu[0];
     
     vm.viewsConCategoria = ['public/app/views/pages/detalleProducto.html','public/app/views/pages/productos.html'];
     
@@ -75,7 +77,9 @@ angular.module('mainCtrl', [])
         
     });
     
-    
+    vm.setActive = function(menuItem) {
+        vm.active = menuItem
+    };
     
     $http.get(pathService.path).success(function(data) {
         vm.listado_productos = data;

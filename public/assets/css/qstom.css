@@ -198,12 +198,45 @@ html, body {
 
 .footer-title {
     color: #8B876D;
-    font-weight: bold;
     font-size: larger;
+    font-weight: bold !important;
 }
+
+.footer-title>a {
+    color: #8B876D;
+    font-size: larger;
+    font-weight: bold !important;
+}
+
+.footer-title>a:visited {
+    color: #8B876D;
+    text-decoration: none;
+}
+
+.footer-title>a:hover {
+    color: #8B876D !important;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bold !important;
+}
+
 .footer-paragraph {
     color: #8B876D;
     font-size: larger;
+}
+
+.footer-paragraph>a {
+    color: #8B876D;
+}
+
+.footer-paragraph>a:hover {
+    color: #8B876D;
+    text-decoration: none;
+}
+
+.footer-paragraph>a:visited {
+    color: #8B876D;
+    text-decoration: none;
 }
 
 .footer-container {
@@ -279,9 +312,6 @@ html, body {
     font-weight: bold !important;
 }
 
-.footer-title {
-    font-weight: bold !important;
-}
 
 h3.cate {
     font-weight: bold !important;

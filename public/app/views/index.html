@@ -76,7 +76,7 @@
 
 
 <!--   <div ng-show='false'>-->
-   <header ng-controller="headerController as heman">
+   <header >
        <div class="header">
            <div class="header-top">
                <div class="header-bottom">
@@ -87,29 +87,29 @@
                        <!---->
                        <div class="menu-superior col-md-8 col-sm-4">
                            <ul class="memenu skyblue">
-                               <li ng-class="heman.active === heman.menu[0] ? 'home-active' : 'grid'">
-                                   <a href="/" class="main_menu_tabs home" ng-click="heman.setActive( heman.menu[0] )">{{ heman.menu[0] }}</a>
+                               <li ng-class="main.active === main.menu[0] ? 'home-active' : 'grid'">
+                                   <a href="/" class="main_menu_tabs home" ng-click="main.setActive( main.menu[0] )">{{ main.menu[0] | uppercase }}</a>
                                </li>
-                               <li ng-class="heman.active === heman.menu[1] ? 'productos-active' : 'grid'" ng-mouseenter="main.mostrarBienvenidos=false" ng-mouseleave="main.mostrarBienvenidos=true">
-                                   <a href="#"  class="main_menu_tabs productos">{{ heman.menu[1] }}</a>
+                               <li ng-class="main.active === main.menu[1] ? 'productos-active' : 'grid'" ng-mouseenter="main.mostrarBienvenidos=false" ng-mouseleave="main.mostrarBienvenidos=true">
+                                   <a href="#"  class="main_menu_tabs productos">{{ main.menu[1] | uppercase }}</a>
                                     <div class="mepanel">
                                        <div class="row">
-                                           <div class="col1 me-one" ng-repeat="producto in heman.productos">
+                                           <div class="col1 me-one" ng-repeat="producto in main.listado_productos">
                                                <h4>{{ producto.name }}</h4>
                                                <ul>
                                                    <li ng-repeat="sub in producto.sub">
-                                                       <a href="/productos/{{ producto.name }}/{{ sub.name }}" ng-click="heman.setActive( heman.menu[1] )">{{ sub.name }}</a>
+                                                       <a href="/{{ main.menu[1] }}/{{ producto.name }}/{{ sub.name }}" ng-click="main.setActive( main.menu[1] )">{{ sub.name }}</a>
                                                    </li>
                                                </ul> 
                                            </div>
                                        </div>
                                     </div>       
                                </li>
-                               <li ng-class="heman.active === heman.menu[2] ? 'nosotros-active' : 'grid'">
-                                   <a href="/nosotros" class="main_menu_tabs nosotros" ng-click="heman.setActive(heman.menu[2])">{{ heman.menu[2] }}</a>
+                               <li ng-class="main.active === main.menu[2] ? 'nosotros-active' : 'grid'">
+                                   <a href="/{{ main.menu[2] }}" class="main_menu_tabs nosotros" ng-click="main.setActive(main.menu[2])">{{ main.menu[2] | uppercase }}</a>
                                 </li>
-                               <li ng-class="heman.active === heman.menu[3] ? 'contacto-active' : 'grid'">
-                                   <a href="/contacto" class="main_menu_tabs contacto" ng-click="heman.setActive( heman.menu[3] )">{{ heman.menu[3] }}</a>
+                               <li ng-class="main.active === main.menu[3] ? 'contacto-active' : 'grid'">
+                                   <a href="/{{ main.menu[3] }}" class="main_menu_tabs contacto" ng-click="main.setActive( main.menu[3] )">{{ main.menu[3] | uppercase }}</a>
                                 </li>
                            </ul>
 
@@ -193,29 +193,29 @@
    </main>
        
 
-    <div class="footer">
+    <div class="footer" >
         <div class="container footer-container">
             <div class="col-md-4 col-sm-4 col-xs-4 footer-top no-pad">
                 <img src="public/assets/img/down.png" class="img-responsive" alt="">
             </div>
             <div class="col-md-4 col-sm-8 col-xs-8 footer-medio">
                 <div class="footer-margin">
-                    <p class="footer-title"> Info de Contacto</p>
+                    <p class="footer-title"><a href="/{{ main.menu[3] }}" ng-click="main.setActive( main.menu[3])"> Info de Contacto</a></p>
                     <br>
                     <p class="footer-paragraph">Simbrón 4728 (C1417EVZ)</p>
                     <p class="footer-paragraph">Buenos Aires, Argentina</p>
                     <br>
                     <p class="footer-paragraph">(+54 11) 4639-3589</p>
                     <br>
-                    <a href="mailto:nicolas@microdiagnostica.com.ar" class="footer-paragraph">nicolas@microdiagnostica.com.ar</a> 
+                    <p class="footer-paragraph" ><a href="mailto:nicolas@microdiagnostica.com.ar"  >nicolas@microdiagnostica.com.ar</a></p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 footer-derecho" ng-controller="headerController as heman">
+            <div class="col-md-4 col-sm-4 footer-derecho" >
                 <div class="footer-margin">
                     <p class="footer-title">Categorias</p>
                     <br>
-                    <div ng-repeat="producto in heman.productos">
-                        <a href="/productos/{{ producto.name }}/{{ producto.sub[0].name }}" class="footer-paragraph">{{ producto.name }}</a>
+                    <div ng-repeat="producto in main.listado_productos">
+                        <p class="footer-paragraph"><a href="/productos/{{ producto.name }}/{{ producto.sub[0].name }}" ng-click="main.setActive( main.menu[1])">{{ producto.name }}</a></p>
                     </div>    
                 </div>
             </div>    
