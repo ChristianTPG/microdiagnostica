@@ -40,7 +40,7 @@ angular.module('angularSlideables', [])
                 //var parent = document.querySelector("#mobilerow");
 
 //                if(!attrs.expanded) {
-
+ 
                 //INICIALIZO EL ATRIBUTO EXPANDED EN FALSE
                 if(!target.getAttribute("expanded"))
                     target.setAttribute("expanded", "false");
