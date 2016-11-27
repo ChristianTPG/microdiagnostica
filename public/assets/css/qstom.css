@@ -23,7 +23,7 @@ html, body {
 }
 
 /* DESKTOP */
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     .header-sidenav{
         display: none !important;
     }
@@ -40,6 +40,26 @@ html, body {
         margin-top: 70px;
         border-left: 1px solid #8B876D;
         border-right: 1px solid #8B876D;
+    }
+    
+    .nosotros-descripcion {
+        border-left: solid #d0d1d2 4px;
+    }
+    
+    .nosotros-wrapper {
+        margin-top: 50px;
+    }
+    
+    .contacto-wrapper {
+        margin-top: 50px;
+    }
+    
+    .nosotros-descripcion {
+        padding-bottom: 15px;
+    }
+    
+    .nosotros-descripcion p, h1 {
+        margin-left: 15px;
     }
 }
 
@@ -94,6 +114,20 @@ html, body {
     .footer-margin>p {
         margin: 0 0 0px;
     }
+    
+    .nosotros-lista {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .nosotros-descripcion {
+        margin-top: 15px;
+    }
+    
+    .nosotros-imagen {
+        display: none;
+    }
+    
 }
 
 @media (max-width: 320px) {
@@ -102,6 +136,51 @@ html, body {
         margin-top: 0 !important;
     }
 }
+
+.nosotros-lista h1{
+    font-weight: bold;
+    color: black;
+    font-size: 1.6em;
+    margin-top: 2px;
+}
+
+.nosotros-descripcion h1{
+    font-weight: bold;
+    color: #e54124;
+    font-size: 1.6em; 
+    margin-top: 2px;
+}
+
+.nosotros-imagen h1{
+    color: black;
+    font-size: 1.6em;
+}
+
+.contacto-datos h1{
+    font-weight: bold;
+    color: black;
+    font-size: 1.6em;
+    margin-top: 2px;
+}
+
+.contact-form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 120px;
+}
+.contact-form .mainBtn {
+    margin-top: 15px;
+    color: white;
+    background-color: #17A258;
+    text-transform: uppercase;
+    border: 0;
+    height: 40px;
+}
+
 
 
 /* The side navigation menu */
@@ -264,6 +343,16 @@ html, body {
 .banner-top{
     background: rgba(34, 170, 175, 0.8) !important;
     width: 40% !important; 
+    max-width: 480px;
+}
+
+.banner-top {
+  transition:all ease-out 0.5s;
+  opacity: 1;
+}
+
+.banner-top.ng-hide {
+  opacity:0;
 }
 
 .banner-top>p {
@@ -368,6 +457,10 @@ h3.cate {
 
 .glyphicon.glyphicon-dot.orange-dot:before {
     color: #e54124;
+}
+
+.glyphicon.glyphicon-dot.green-dot:before {
+    color: #15a357;
 }
 
 .bc {

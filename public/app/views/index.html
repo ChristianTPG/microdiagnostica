@@ -62,6 +62,21 @@
     <script type="text/javascript" src="public/assets/js/memenu.js"></script>
     <script>$(document).ready(function(){$(".memenu").memenu();});</script>	
     
+    <script>
+        jQuery(window).resize(function(){
+            if ( jQuery(window).width() <= 975 )
+            {
+                jQuery('#descripcion').insertBefore('#lista');
+            }
+            if ( jQuery(window).width() > 975 )
+            {
+                jQuery('#lista').insertBefore('#descripcion');
+            }
+            jQuery(window).height(); // New height
+            jQuery(window).width(); // New width
+        });
+    </script>
+    
 	<script src="public/assets/js/bootstrap.js"></script>
     <script src="public/assets/js/simpleCart.min.js"></script>
 <!--    <script src="public/assets/js/tabs.js"></script>-->

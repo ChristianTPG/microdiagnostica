@@ -1,11 +1,37 @@
-<div class="banner">
-    <div class="banner-top">
-        <h2>THIS IS CONTACTO</h2>
-        <p>Goggles or safety glasses are forms of protective eyewear<span>fthat usually enclose or protect the area surrounding the eye in order to prevent particulates.</span></p>
+<div class="col-xs-12 col-md-12 contacto-wrapper">
+  
+   <div class="col-md-4 col-sm-4 contacto-datos">
+        <h1>Info de Contacto</h1>
+        <p>Simbrón 4728 (C1417EVZ)</p>
+        <p>Buenos Aires, Argentina</p>
+        <p>(+54 11) 4639-3589</p>
+        <p>
+            <a href="mailto:nicolas@microdiagnostica.com.ar" >nicolas@microdiagnostica.com.ar</a>
+        </p>
     </div>
-    <div class="now">
-        <a class="morebtn" href="product.html">Explore</a>
-        <a class="morebtn at-in" href="single.html">Shop Now</a>
-        <div class="clearfix"> </div>
-    </div>
-</div>	
+    
+    <div id="mailConfirmado" class="alert alert-success" role="alert" style="display:none">Mensaje Enviado</div>  
+     
+    <div class="col-md-8 col-xs-12">
+        <h1>Contactanos</h1>
+        <div class="contact-form">
+            <form method="post" name="contactform" id="contactform">
+                <p>
+                    <input name="name" type="text" id="name" placeholder="Nombre o Empresa">
+                </p>
+                <p>
+                    <input name="email" type="text" id="email" placeholder="Tu E-mail"> 
+                </p>
+                <p>
+                    <input name="subject" type="text" id="subject" placeholder="Asunto"> 
+                </p>
+                <p>
+                    <textarea name="comments" id="comments" placeholder="Mensaje"></textarea>    
+                </p>
+                <input type="submit" onclick="mail(); return false" class="mainBtn" id="submit" value="Enviar Mensaje">
+            </form>
+        </div> <!-- /.contact-form -->                    
+    </div><!-- /.col-md-5 -->
+  
+</div>
+   
