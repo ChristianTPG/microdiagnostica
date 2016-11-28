@@ -14,7 +14,9 @@ angular.module('app.routes', ['ngRoute'])
     
     //contacto page
     .when('/contacto', {
-        templateUrl: 'public/app/views/pages/contacto.html'
+        templateUrl: 'public/app/views/pages/contacto.html',
+        controller: 'contactoController',
+        controllerAs: 'contactoCtrl'
     }) 
     
     //PRODUCTOS page

@@ -1,37 +1,27 @@
 <div class="col-xs-12 col-md-12 contacto-wrapper">
-  
-   <div class="col-md-4 col-sm-4 contacto-datos">
+    <div id="mailConfirmado" class="alert alert-success" role="alert" style="display:none">Mensaje Enviado</div>
+    <div id="mailError" class="alert alert-danger" role="alert" style="display:none">Mensaje No Enviado. Verifique los datos ingresados.</div>
+
+    <div class="col-md-3 col-sm-3 contacto-datos">
         <h1>Info de Contacto</h1>
         <p>Simbrón 4728 (C1417EVZ)</p>
         <p>Buenos Aires, Argentina</p>
         <p>(+54 11) 4639-3589</p>
         <p>
-            <a href="mailto:nicolas@microdiagnostica.com.ar" >nicolas@microdiagnostica.com.ar</a>
+            <a href="mailto:nicolas@microdiagnostica.com.ar">nicolas@microdiagnostica.com.ar</a>
         </p>
     </div>
-    
-    <div id="mailConfirmado" class="alert alert-success" role="alert" style="display:none">Mensaje Enviado</div>  
-     
-    <div class="col-md-8 col-xs-12">
+
+    <div class="col-md-9 col-xs-12 contacto-form-wapper">
         <h1>Contactanos</h1>
         <div class="contact-form">
-            <form method="post" name="contactform" id="contactform">
-                <p>
-                    <input name="name" type="text" id="name" placeholder="Nombre o Empresa">
-                </p>
-                <p>
-                    <input name="email" type="text" id="email" placeholder="Tu E-mail"> 
-                </p>
-                <p>
-                    <input name="subject" type="text" id="subject" placeholder="Asunto"> 
-                </p>
-                <p>
-                    <textarea name="comments" id="comments" placeholder="Mensaje"></textarea>    
-                </p>
-                <input type="submit" onclick="mail(); return false" class="mainBtn" id="submit" value="Enviar Mensaje">
+            <form name="contactform" ng-submit="contactoCtrl.sendMail()" >
+                <p><input name="name" type="text" id="name" placeholder="Nombre o Empresa" ng-model="name" required></p>
+                <p><input name="email" type="email" id="email" placeholder="Tu E-mail" ng-model="email" required></p>
+                <p><input name="subject" type="text" id="subject" placeholder="Asunto" ng-model="subject" required></p>
+                <p><textarea name="comments" type="text" id="comments" placeholder="Mensaje" ng-model="comments" required></textarea></p>
+                <p><input type="submit" class="mainBtn" id="submit" value="Enviar Mensaje"></p>
             </form>
-        </div> <!-- /.contact-form -->                    
-    </div><!-- /.col-md-5 -->
-  
+        </div>
+    </div>
 </div>
-   

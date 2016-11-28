@@ -1,6 +1,6 @@
 angular.module('mainCtrl', [])
 
-.controller('mainController', function($http, pathService, $rootScope, $location, Auth){
+.controller('mainController', function($http, pathService, $rootScope, $location){
     
     var vm = this;
     

@@ -1,6 +1,6 @@
-angular.module('sideCtrl',['productosData','angularSlideables'])
+angular.module('sideCtrl', ['productosData', 'angularSlideables'])
 
-    .controller('sideController',function(){
+.controller('sideController', function() {
 
     var vm = this;
 
@@ -16,10 +16,10 @@ angular.module('sideCtrl',['productosData','angularSlideables'])
         angular.element(document.querySelector('#mySidenav2'))[0].style.width = "250px";
 
     }
-    
+
     vm.less = function() {
         angular.element(document.querySelector('#mySidenav2'))[0].style.width = "0px";
 
     }
-    
+
 })
