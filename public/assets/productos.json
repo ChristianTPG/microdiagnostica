@@ -1,407 +1,402 @@
-[
-    {   
-        "name": "Equipos", 
-        "sub":    [
-                    {   
-                        "name": "Diluctores Gavimetricos", 
-                        "sub":[
-                                {   
-                                    "name": "DiluFlow",
-                                    "imgs": [{ "url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow/DiluFlow.jpg"}],
-                                    "video": "public/assets/videos/Bolsas y Accesorios.mp4",
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "DiluFlow Pro",
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Pro/DiluFlow Pro.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "DiluFlow Elite 1Kg", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 1 kg/DiluFlow Elite 1 kg.jpg"}],
-                                    "descripcion":  "BagMixer Premium Pack es la mejor y mas rapida manera para equipar su laboratorio. Bag Mixer 400 es un          homogeneizador de laboratorio facil de uso y potente. Adaptado a todo tipo de aplicaciones y con una garantia de la extraccion de bacterias optima, evita asi todo riesgo de contaminacion cruzada",
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "DiluFlow Elite 5Kg", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 5 kg/DiluFlow Elite 5 kg.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [],
-                                    "descripcion":"<p>DiluFlow<sup>®</sup> Elite diluye automáticamente en pocos segundos una muestra sólida con el peso apropiado de diluyente y con trazabilidad completa. ¡Programable y conectable hasta con 6 diluyentes, le ofrece la mejor solución para sus diluciones! Sumamente preciso, está recomendado para las industrias cosméticas.<br class=\"autobr\"><strong>Cumple con las normas ISO 7218, ISO 6887-1 &amp; FDA BAM</strong></p>",
-                                    "caracteristicas":"<p>RASGOS ÚNICOS<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Perfil sumamente bajo: ¡ Solamente 30 cm ! Perfecto para un flujo laminar.<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Sistema GeckoGrip (Patentado): mantiene la bolsa en todas las condiciones<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Hasta 6 bombas con 4 bombas conectables<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Light Code: indicador intuitivo del estado<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Bandeja de seguridad extraíble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Modo multidispensación (Patentado) con pistola dispensadora</p><p>RÁPIDO<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;El más rápido del mundo: solamente 8 s* para dispensar 225 mL<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Funciones de distribución y de pesada en 1 <br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Bombas Watson Marlow® de calidad superior</p><p>EXCELENTE ERGONOMÍA<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Brazo robotizado : suelta la muestra con seguridad y facilidad<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Bandeja de seguridad extraíble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Soporte BagOpen® magnético (Forma patentada)</p><p>TRAZABILIDAD<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;32 programas editables<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Conectividad bidreccional<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Trazabilidad completa: impresora, ExcelTM, CSV y LIMS</p><p>CALIDAD SUPERIOR<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Cumple con las normas ISO 7218, ISO 6887-1 y FDA BAM<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;Hecho en Francia: norma ISO 9001 2008</p><p><strong>DISPONIBLE EN:</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;DiluFlow<sup>®</sup> Elite una bomba, 5 kg (ref. 503 105)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&nbsp;DiluFlow<sup>®</sup> Elite dos bombas, 5 kg (ref. 503 205)</p><p>*Tiempo de dilución para una muestra de 25 g diluida al 1/10 con booster kit en modo rápido.</p>"
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Homogenizadores", 
-                        "sub":[
-                                {   
-                                    "name": "Gama MiniMix 100",
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/Gama MiniMix.jpg"}], 
-                                    "sub":  [
-                                                { 
-                                                    "name": "MiniMix P CC", 
-                                                    "imgs": [{"url":"public/assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/MiniMix P CC/MiniMix 100 P CC.jpg"},
-                                                             {"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 5 kg/DiluFlow Elite 5 kg.jpg"}],
-                                                    "codigo": "2201:30",
-                                                    "sub": [],
-                                                    "descripcion": "<p>Caracter&iacute;sticas esenciales</p><ul><li>R&aacute;pido y preciso</li></ul><br><p>MiniMix&nbsp;100 es el homogeneizador m&aacute;s peque&ntilde;o del mundo. Gracias a su pantalla digital, controla f&aacute;cilmente la velocidad y el tiempo de la mezcla de su MiniMix&nbsp;100 W CC. Disfruta de una muestra perfectamente homogeneizada con ning&uacute;n riesgo de contaminaci&oacute;n cruzada y en menos de 60 segundos!</p>",
-                                                    "caracteristicas": "<p><strong>1. HOMOGENEIZACI&Oacute;N R&Aacute;PIDA DE PEQUE&Ntilde;AS MUESTRAS CON EXTRACCI&Oacute;N BACTERIANA &Oacute;PTIMA </strong></p><ul><li>Solamente 30 a 60 segundos para homogeneizar una muestra</li><li>Puebas ESB para la microbiolog&iacute;a de los alimentos</li><li>Biopsia, tomas de &oacute;rganos para la microbiolog&iacute;a veterinaria</li><li>B&uacute;squeda de toxinas : HPLC, GCMS</li></ul><p>&nbsp;</p><p><strong>2. F&Aacute;CIL DE LIMPIEZA</strong></p><ul><li>Palas extra&iacute;bles Click and Clean<sup>&reg;</sup> (Patentado)</li><li>La puerta se abre completamente a 270&deg; para facilitar el acceso a la c&aacute;mara del homogeneizador</li><li>Recipiente de seguridad</li><li>En acero inoxidable</li></ul><p>&nbsp;</p><p><strong>3. F&Aacute;CIL DE UTILIZACI&Oacute;N</strong></p><ul><li>Compacto</li><li>Se adapta a cualquier muestra (con el sistema de trituraci&oacute;n regulable)</li><li>Pantalla digital multifunci&oacute;n : control f&aacute;cil</li><li>Inserci&oacute;n f&aacute;cil de la bolsa : las palas para lado a lado</li><li>Sistema de cierre Q-Tight<sup>&reg;</sup> : ning&uacute;n problema de fuga de la parte superior de la bolsa durante la homogeneizaci&oacute;n</li></ul><p>&nbsp;</p><p><strong>4. PRECISI&Oacute;N</strong></p><ul><li>Velocidad de homogeneizaci&oacute;n regulable (3 - 6 - 9 - 12 golpes/segundo)</li><li>Tiempo de homogeneizaci&oacute;n regulable (1 seg. - 1 h o infinito)</li><li>Fuerza de trituraci&oacute;n regulable : adaptado a cualquier tipo de muestra (Patentado)</li></ul>",
-                                                    "especificaciones":"<table summary=\"\"><thead><tr class=\"row_first\"><th id=\"ide90e_c0\"> </th><th id=\"ide90e_c1\">MiniMix<sup>®</sup> 100 P CC</th><th id=\"ide90e_c2\">MiniMix<sup>®</sup> 100 W CC</th></tr></thead><tbody><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Reference</td><td headers=\"ide90e_c1\"><center>011 230</center></td><td headers=\"ide90e_c2\"><center>013 230</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Removable and autoclavable paddles, Click &amp; Clean® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending power indicator</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Adjustable blending power<br class=\"autobr\">(up to 23 kg of pressure)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Digital screen</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Leak free Q-tight® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Side-by-side paddle stop</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Window door</td><td headers=\"ide90e_c1\"><center>-</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Security drip tray</td><td headers=\"ide90e_c1\"><center>in option</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">270° opening door</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">All stainless steel</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Compact and ergonomic</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending time</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>1 s - 1 h, ∞</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Blending speed</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3, 6, 9, 12 strokes/s</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Dimension (w x d x h)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>21 x 37 x 20 cm</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Weight</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>13 kg</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Power</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>110-220 V&nbsp;50-60Hz</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Capacity</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>5-80 mL</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Life-time guarantee</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>Unbreakable shock absorbers and window</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Warranty(after registration)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3 year</center></td></tr></tbody></table>",
-                                                    "video": "public/assets/videos/Bolsas y Accesorios.mp4"
-                                                    
-                                                },
-                                                {
-                                                    "name": "MiniMix W CC",  
-                                                    "codigo": "2201:30",
-                                                    "sub": [],
-                                                    "descripcion": "<ul><li>Homogeneizaci&oacute;n r&aacute;pida y precisa de la muestra</li><li>Alta tecnolog&iacute;a</li></ul><br><p>MiniMix&nbsp;100 es el homogeneizador m&aacute;s peque&ntilde;o del mundo.<br/>Gracias a su pantalla digital y su puerta de cristal, controla f&aacute;cilmente la velocidad y el tiempo de la mezcla de su MiniMix&nbsp;100 W CC. Disfruta de una muestra perfectamente homogeneizada con ning&uacute;n riesgo de contaminaci&oacute;n cruzada y en menos de 60 segundos!</p>",
-                                                    "imgs": [{"url":"public/assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/MiniMix W CC/MiniMix 100 W CC.jpg"}],
-                                                    "caracteristicas": "<p><strong>1. HOMOGENEIZACI&Oacute;N R&Aacute;PIDA DE PEQUE&Ntilde;AS MUESTRAS CON EXTRACCI&Oacute;N BACTERIANA &Oacute;PTIMA </strong></p><ul><li>Solamente 30 a 60 segundos para homogeneizar una muestra</li><li>Puebas ESB para la microbiolog&iacute;a de los alimentos</li><li>Biopsia, tomas de &oacute;rganos para la microbiolog&iacute;a veterinaria</li><li>B&uacute;squeda de toxinas : HPLC, GCMS</li></ul><p>&nbsp;</p><p><strong>2. F&Aacute;CIL DE LIMPIEZA</strong></p><ul><li>Palas extra&iacute;bles Click and Clean<sup>&reg;</sup> (Patentado)</li><li>La puerta se abre completamente a 270&deg; para facilitar el acceso a la c&aacute;mara del homogeneizador</li><li>Recipiente de seguridad</li><li>En acero inoxidable</li></ul><p>&nbsp;</p><p><strong>3. F&Aacute;CIL DE UTILIZACI&Oacute;N</strong></p><ul><li>Compacto</li><li>Se adapta a cualquier muestra (con el sistema de trituraci&oacute;n regulable)</li><li>Pantalla digital multifunci&oacute;n : control f&aacute;cil</li><li>Inserci&oacute;n f&aacute;cil de la bolsa : las palas para lado a lado</li><li>Sistema de cierre Q-Tight<sup>&reg;</sup> : ning&uacute;n problema de fuga de la parte superior de la bolsa durante la homogeneizaci&oacute;n</li></ul><p>&nbsp;</p><p><strong>4. PRECISI&Oacute;N</strong></p><ul><li>Velocidad de homogeneizaci&oacute;n regulable (3 - 6 - 9 - 12 golpes/segundo)</li><li>Tiempo de homogeneizaci&oacute;n regulable (1 seg. - 1 h o infinito)</li><li>Fuerza de trituraci&oacute;n regulable : adaptado a cualquier tipo de muestra (Patentado)</li></ul>",
-                                                    "especificaciones":"<table summary=\"\"><thead><tr class=\"row_first\"><th id=\"ide90e_c0\"> </th><th id=\"ide90e_c1\">MiniMix<sup>®</sup> 100 P CC</th><th id=\"ide90e_c2\">MiniMix<sup>®</sup> 100 W CC</th></tr></thead><tbody><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Reference</td><td headers=\"ide90e_c1\"><center>011 230</center></td><td headers=\"ide90e_c2\"><center>013 230</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Removable and autoclavable paddles, Click &amp; Clean® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending power indicator</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Adjustable blending power<br class=\"autobr\">(up to 23 kg of pressure)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Digital screen</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Leak free Q-tight® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Side-by-side paddle stop</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Window door</td><td headers=\"ide90e_c1\"><center>-</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Security drip tray</td><td headers=\"ide90e_c1\"><center>in option</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">270° opening door</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">All stainless steel</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Compact and ergonomic</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending time</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>1 s - 1 h, ∞</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Blending speed</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3, 6, 9, 12 strokes/s</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Dimension (w x d x h)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>21 x 37 x 20 cm</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Weight</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>13 kg</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Power</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>110-220 V&nbsp;50-60Hz</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Capacity</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>5-80 mL</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Life-time guarantee</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>Unbreakable shock absorbers and window</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Warranty(after registration)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3 year</center></td></tr></tbody></table>"
-                                                }
-                                            ] 
-                                },
-                                {   
-                                    "name": "Gama BagMixer 400", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama BagMixer (400)/BagMixer 400 CC/BagMixer 400 CC.jpg"}],
-                                    "sub":  [
-                                                { 
-                                                    "name": "BagMixer 400 P", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                },
-                                                {
-                                                    "name": "BagMixer 400 W", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                },
-                                                {
-                                                    "name": "BagMixer 400 CC", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                },
-                                                {
-                                                    "name": "BagMixer S", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                },
-                                                {
-                                                    "name": "BagMixer SW", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                } 
-                                            ] 
-                                },
-                                {   
-                                    "name": "Gama JumboMix 3500", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama JumboMix (3500)/Gama JumboMix.jpg"}],
-                                    "sub":  [
-                                                { 
-                                                    "name": "JumboMix WarmMix", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                },
-                                                {
-                                                    "name": "JumboMix 3500 VP", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                },
-                                                {
-                                                    "name": "JumboMix 3500 VW", 
-                                                    "codigo": "2201:30",
-                                                    "sub": []
-                                                } 
-                                            ]  
+[{
+    "name": "Equipos",
+    "sub": [{
+        "name": "Diluidores gravimétricos",
+        "img": [],
+        "sub": [{
+            "name": "DiluFlow",
+            "sub": [],
+            "imgs": [{ "url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow/DiluFlow.jpg"}],
+            "descripcion": "<p>DiluFlow<sup>&#xAE;</sup> diluye autom&#xE1;ticamente en pocos segundos una muestra s&#xF3;lida con el peso apropiado de diluyente y con trazabilidad. &#xA1;Con nuevas patentes e innovaciones, le ofrece la mejor soluci&#xF3;n para sus diluciones!<br class=\"manualbr\"><strong>Cumple con la normas ISO 7218, ISO 6887-1 &amp; FDA BAM</strong></p>",
+            "caracteristicas": "<h2 class=\"tab\">Rasgos clave</h2><p><strong>RASGOS &#xDA;NICOS</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Perfil sumamente bajo: &#xA1; Solamente 30 cm ! Perfecto para un flujo laminar.<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Sistema GeckoGrip (Patentado): mantiene la bolsa en todas las condiciones<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Light Code: indicador intuitivo del estado<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)</p><p><strong>R&#xC1;PIDO</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;El m&#xE1;s r&#xE1;pido del mundo: solamente 9 s* para dispensar 225 mL<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Funciones de distribuci&#xF3;n y de pesada en 1 <br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bombas Watson Marlow<sup>&#xAE;</sup> de calidad superior</p><p><strong>EXCELENTE ERGONOM&#xCD;A</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Soporte BagOpen<sup>&#xAE;</sup> magn&#xE9;tico (Forma patentada)</p><p><strong>TRAZABILIDAD</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Trazabilidad: Impresora / Software de monitoreo (exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, archivo CSV, impresora)</p><p><strong>CALIDAD SUPERIOR</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Cumple con las normas ISO 7218, ISO 6887-1  y FDA BAM<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Hecho en Francia: norma ISO 9001 2008</p><p><strong> DISPONIBLE EN:</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> 3 kg, una bomba (ref. 501 103)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> 3 kg, dos bombas (ref. 501 203)</p><p>*Tiempo de diluci&#xF3;n para una muestra de 25 g diluida al 1/10 con booster kit en modo r&#xE1;pido.</p>",
+            "especificaciones": "<h2 class=\"tab\">Especificaciones t&#xE9;cnicas</h2><p>Especificaciones t&#xE9;cnicas del modelo.<br class=\"autobr\">Haga desfilar hacia abajo para el cuadro comparativo con los otros modelos de la l&#xED;nea.</p><table summary=\"\"><tbody></tbody></table><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>501 103</center></td><td><center>501 203</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con Gecko Grip</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"2\"><center>0.01 g</center></td></tr><tr class=\"row_odd odd\"><td>Rango de pesada</td><td colspan=\"2\"><center>3000 g</center></td></tr><tr class=\"row_even even\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 100 g: &#xB1; 0.05 g / 100 g hasta 3000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_odd odd\"><td>Factor de diluci&#xF3;n</td><td colspan=\"3\"><center>1/2 hasta 1/99</center></td></tr><tr class=\"row_even even\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"3\"><center> &gt;98%</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"3\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"3\"><center>&lt; 7 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"3\"><center>&lt; 10 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"3\"><center> 2 integradas</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"4\"><center> R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr><tr class=\"row_even even\"><td>Trazabilidad</td><td colspan=\"3\"><center>Impresora / Software de monitoreo (exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, archivo CSV, impresora)</center></td></tr><tr class=\"row_odd odd\"><td>Datos exportados</td><td colspan=\"3\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / Precisi&#xF3;n de diluci&#xF3;n / Bomba izquierda o derecha + con el software de monitoreo: N&#xFA;mero de muestra / Nombre del operador / Fecha / Hora </center></td></tr><tr class=\"row_even even\"><td>Conexi&#xF3;n</td><td colspan=\"3\"><center> Salida RS232 para impresora / puerto USB para computador / conector Jack para pedal</center></td></tr><tr class=\"row_odd odd\"><td>Peso</td><td><center>10.5 kg</center></td><td><center>13 kg</center></td></tr><tr class=\"row_even even\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 x 40 cm</center></td><td><center>37 x 41.5 x 40 cm</center></td></tr><tr class=\"row_odd odd\"><td>Idioma</td><td colspan=\"3\"><center>Ingl&#xE9;s</center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"3\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, Soporte BagOpen magn&#xE9;tico (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"3\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual) </center></td></tr><tr class=\"row_even even\"><td>Fabricaci&#xF3;n</td><td colspan=\"3\"><center> Hecho en Francia, ISO 9001-2008</center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"3\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"3\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"3\"><center>1 a&#xF1;o</center></td></tr></tbody></table><p>** Con kit booster en modo r&#xE1;pido</p><p>DiluFlow<sup>&#xAE;</sup> est&#xE1; entregado con 1 brazo de dispensaci&#xF3;n, 1 bandeja de seguridad 400, 1 o 2 bombas, 1 conjunto de dispensaci&#xF3;n (GL45 - &#xD8; 6,4 mm) por bomba, cable USB, software de monitoreo, cable de alimentaci&#xF3;n, 1 BagOpen<sup>&#xAE;</sup> 400 para diluidores, manual de usuario, instrucciones de uso simplificadas, 10 GeckoGrip, muestras de bolsas gratis.</p><p><strong>Comparaci&#xF3;n con los otros modelos de la l&#xED;nea</strong></p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>501 103<center></center></center></td><td><center>501 203<center></center></center></td><td><center>502 105<center></center></center></td><td><center>502 205<center></center></center></td><td><center>503 105<center></center></center></td><td><center>503 205<center></center></center></td><td><center>503 101<center></center></center></td><td><center>503 201</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con GeckoGrip</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit Jumbo</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>-</center></td></tr><tr class=\"row_even even\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Hasta 6 bombas</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Modo Multidispensaci&#xF3;n patentado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>32 programas personalizables</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Conectividad bidireccional</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Diluci&#xF3;n  1 g al 1/10</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr></tbody></table><p><br class=\"manualbr\"></p><table summary=\"\"><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"8\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>3000 g</center></td><td colspan=\"4\"><center>5000 g</center></td><td colspan=\"2\"><center>1000 g</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 3 000 g: &#xB1; 0.1%</center></td><td colspan=\"4\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 5 000 g: &#xB1; 0.1%</center></td><td colspan=\"2\"><center>0 g hasta 20 g: &#xB1; 0.01 g / <br class=\"autobr\">20 g hasta 1 000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"4\"><center>1/2 hasta 1/99</center></td><td colspan=\"4\"><center>2 hasta 1000, fracciones personalizables</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"2\"><center>&gt; 98%</center></td><td colspan=\"6\"><center>&gt; 99%*</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"4\"><center>&lt; 9 s**</center></td><td colspan=\"4\"><center>&lt; 8 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 375 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>-<center></center></center></td><td colspan=\"2\"><center>&lt; 80 s**</center></td><td colspan=\"2\"><center>&lt; 75 s**</center></td><td colspan=\"2\"><center>-<center></center></center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"4\"><center>&lt; 7 s**</center></td><td colspan=\"4\"><center>&lt; 6 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"4\"><center>&lt; 10 s**</center></td><td colspan=\"4\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"4\"><center> 2 integradas</center></td><td colspan=\"4\"><center>2 integradas + 4 externas</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"8\"><center>R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr></tbody></table><p>* con kit booster en modo est&#xE1;ndar o preciso ** con kit booster en modo r&#xE1;pido</p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td></tr><tr class=\"row_odd odd\"><td>Trazabilidad</td><td colspan=\"4\"><center>Impresora / Software de monitoreo <br class=\"autobr\">(exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, <br class=\"autobr\">archivo CSV, impresora</center></td><td colspan=\"4\"><center>Impresora / Exportaci&#xF3;n hacia Excel<sup>TM</sup> / <br class=\"autobr\">exportaci&#xF3;n de archivos CSV en memoria USB / LIMS</center></td></tr><tr class=\"row_even even\"><td>Datos exportados</td><td colspan=\"4\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Bomba izquierda o derecha <br class=\"autobr\">+ con software de monitoreo: <br class=\"autobr\">N&#xFA;mero de muestra / Nombre del operator / Fecha / Hora</center></td><td colspan=\"4\"><center>Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Diluyente / N&#xFA;mero de muestra / N&#xFA;mero de lote del diluyente / Fecha / Hora / <br class=\"autobr\">Fecha de la &#xFA;ltima calibraci&#xF3;n/ Nombre del operador /Nombre del programa</center></td></tr><tr class=\"row_odd odd\"><td>Conexi&#xF3;n</td><td colspan=\"4\"><center> Salida RS232 para impresora / puerto USB para computador / conector Jack para pedal</center></td><td colspan=\"4\"><center>2 puertos USB (tipo A) <br class=\"autobr\">para conectar una impresora, teclado, lector de c&#xF3;digos de barras, memoria USB /<br class=\"autobr\">1 puerto USB (tipo B) para conectar un computador/ <br class=\"autobr\">conector Jack para conectar un pedal /<br class=\"autobr\">Pistola dispensadora / Conexi&#xF3;n Ethernet para LIMS</center></td></tr><tr class=\"row_even even\"><td>Peso</td><td><center>10.5 kg</center></td><td><center>13 kg</center></td><td><center>12.5 kg</center></td><td><center>15 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td></tr><tr class=\"row_odd odd\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5<br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td></tr><tr class=\"row_even even\"><td>Idioma</td><td colspan=\"4\"><center>Ingl&#xE9;s</center></td><td colspan=\"4\"><center>Ingl&#xE9;s / Franc&#xE9;s </center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"8\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"8\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"8\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"8\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"8\"><center>1 a&#xF1;o</center></td></tr></tbody></table><div class=\"pictos\">\t\t<h4>Certificado</h4>\t\t<ul>\t\t\t\t\t\t\t<li class=\"picto_ISO9001_2008\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_WEE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_ROHS\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_CE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_MadeinFrance\"></li>\t\t\t\t\t\t</ul></div>",
+            "codigo": ""
+        }, {
+            "name": "DiluFlow Pro",
+            "sub": [],
+            "imgs": [{"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Pro/DiluFlow Pro.jpg"}],
+            "descripcion": "<p>DiluFlow<sup>&#xAE;</sup> Pro diluye autom&#xE1;ticamente en pocos segundos una muestra s&#xF3;lida con el peso apropiado de diluyente y con trazabilidad. &#xA1;Con su brazo robotizado y su proceso sumamente r&#xE1;pido, le ofrece la mejor soluci&#xF3;n para sus diluciones!<br class=\"autobr\"><strong>Cumple con las normas ISO 7218, ISO 6887-1 &amp; FDA BAM</strong></p>",
+            "caracteristicas": "<h2 class=\"tab\">Rasgos clave</h2><p><strong>RASGOS &#xDA;NICOS</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Perfil sumamente bajo: &#xA1; Solamente 30 cm ! Perfecto para un flujo laminar.<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Sistema GeckoGrip (Patentado): mantiene la bolsa en todas las condiciones<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Light Code: indicador intuitivo del estado<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)</p><p><strong>R&#xC1;PIDO</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;El m&#xE1;s r&#xE1;pido del mundo: solamente 9 s* para dispensar 225 mL<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Funciones de distribuci&#xF3;n y de pesada en 1 <br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bombas Watson Marlow<sup>&#xAE;</sup> de calidad superior</p><p><strong>EXCELENTE ERGONOM&#xCD;A</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Brazo robotizado : suelta la muestra con seguridad y facilidad<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Soporte BagOpen<sup>&#xAE;</sup> magn&#xE9;tico (Forma patentada)</p><p><strong>TRAZABILIDAD</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Trazabilidad: Impresora / Software de monitoreo (exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, archivo CSV, impresora)</p><p><strong>CALIDAD SUPERIOR</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Cumple con las normas ISO 7218, ISO 6887-1  y FDA BAM<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Hecho en Francia: norma ISO 9001 2008</p><p><strong> DISPONIBLE EN:</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> Pro 5 kg, una bomba (ref. 501 103)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> Pro 5 kg, dos bombas (ref. 501 203)</p><p>*Tiempo de diluci&#xF3;n para una muestra de 25 g diluida al 1/10 con booster kit en modo r&#xE1;pido.</p>",
+            "especificaciones": "<h2 class=\"tab\">Especificaciones t&#xE9;cnicas</h2><p>Especificaciones t&#xE9;cnicas del modelo.<br class=\"autobr\">Haga desfilar hacia abajo para el cuadro comparativo con los otros modelos de la l&#xED;nea.</p><table summary=\"\"><tbody></tbody></table><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>502 105</center></td><td><center>502 205</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con Gecko Grip</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit Jumbo</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td><center>&#x2714;</center></td><td><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"2\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>5000 g</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 100 g: &#xB1; 0.05 g / 100 g hasta 5000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"3\"><center>1/2 hasta 1/99</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"3\"><center> &gt;98%</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"3\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 375 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"3\"><center>&lt; 80 s**</center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"3\"><center>&lt; 7 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"3\"><center>&lt; 10 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"3\"><center> 2 integradas</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"3\"><center>R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr><tr class=\"row_even even\"><td>Trazabilidad</td><td colspan=\"3\"><center>Impresora / Software de monitoreo  (Exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, CSV, impresora)</center></td></tr><tr class=\"row_odd odd\"><td>Datos exportados</td><td colspan=\"3\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Bomba izquierda o derecha + con software de monitoreo: <br class=\"autobr\">N&#xFA;mero de muestra / Nombre del operator / Fecha / Hora </center></td></tr><tr class=\"row_even even\"><td>Conexi&#xF3;n</td><td colspan=\"3\"><center> Salida RS232 para impresora / puerto USB para computador / conector Jack para pedal</center></td></tr><tr class=\"row_odd odd\"><td>Peso</td><td><center>12.5 kg</center></td><td><center>15 kg</center></td></tr><tr class=\"row_even even\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 x 37.5 cm</center></td><td><center>37 x 41.5 x 37.5 cm</center></td></tr><tr class=\"row_odd odd\"><td>Idioma</td><td colspan=\"3\"><center>Ingl&#xE9;s </center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"3\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"3\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_even even\"><td>Fabricaci&#xF3;n</td><td colspan=\"3\"><center> Hecho en Francia, ISO 9001-2008</center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"3\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"3\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"3\"><center>1 a&#xF1;o</center></td></tr></tbody></table><p>** Con kit booster en modo r&#xE1;pido</p><p>DiluFlow<sup>&#xAE;</sup> Pro est&#xE1; entregado con 1 o 2 bombas, 1 bandeja de seguridad 400, 1 protecci&#xF3;n para boquilla de distribuci&#xF3;n, 1 conjunto de dispensaci&#xF3;n (GL45 - &#xD8; 6,4 mm) por bomba, cable USB, monitoring software, cable de alimentaci&#xF3;n, 1 BagOpen<sup>&#xAE;</sup> 400 para diluidores, manual de usuario, instrucciones de uso simplificadas, 10 GeckoGrip, muestras de bolsas gratis.</p><p><strong>Comparaci&#xF3;n con los otros modelos de la l&#xED;nea</strong></p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>501 103<center></center></center></td><td><center>501 203<center></center></center></td><td><center>502 105<center></center></center></td><td><center>502 205<center></center></center></td><td><center>503 105<center></center></center></td><td><center>503 205<center></center></center></td><td><center>503 101<center></center></center></td><td><center>503 201</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con GeckoGrip</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit Jumbo</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>-</center></td></tr><tr class=\"row_even even\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Hasta 6 bombas</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Modo Multidispensaci&#xF3;n patentado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>32 programas personalizables</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Conectividad bidireccional</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Diluci&#xF3;n  1 g al 1/10</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr></tbody></table><p><br class=\"manualbr\"></p><table summary=\"\"><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"8\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>3000 g</center></td><td colspan=\"4\"><center>5000 g</center></td><td colspan=\"2\"><center>1000 g</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 3 000 g: &#xB1; 0.1%</center></td><td colspan=\"4\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 5 000 g: &#xB1; 0.1%</center></td><td colspan=\"2\"><center>0 g hasta 20 g: &#xB1; 0.01 g / <br class=\"autobr\">20 g hasta 1 000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"4\"><center>1/2 hasta 1/99</center></td><td colspan=\"4\"><center>2 hasta 1000, fracciones personalizables</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"2\"><center>&gt; 98%</center></td><td colspan=\"6\"><center>&gt; 99%*</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"4\"><center>&lt; 9 s**</center></td><td colspan=\"4\"><center>&lt; 8 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 375 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>-<center></center></center></td><td colspan=\"2\"><center>&lt; 80 s**</center></td><td colspan=\"2\"><center>&lt; 75 s**</center></td><td colspan=\"2\"><center>-<center></center></center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"4\"><center>&lt; 7 s**</center></td><td colspan=\"4\"><center>&lt; 6 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"4\"><center>&lt; 10 s**</center></td><td colspan=\"4\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"4\"><center> 2 integradas</center></td><td colspan=\"4\"><center>2 integradas + 4 externas</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"8\"><center>R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr></tbody></table><p>* con kit booster en modo est&#xE1;ndar o preciso ** con kit booster en modo r&#xE1;pido</p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td></tr><tr class=\"row_odd odd\"><td>Trazabilidad</td><td colspan=\"4\"><center>Impresora / Software de monitoreo <br class=\"autobr\">(exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, <br class=\"autobr\">archivo CSV, impresora</center></td><td colspan=\"4\"><center>Impresora / Exportaci&#xF3;n hacia Excel<sup>TM</sup> / <br class=\"autobr\">exportaci&#xF3;n de archivos CSV en memoria USB / LIMS</center></td></tr><tr class=\"row_even even\"><td>Datos exportados</td><td colspan=\"4\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Bomba izquierda o derecha <br class=\"autobr\">+ con software de monitoreo: <br class=\"autobr\">N&#xFA;mero de muestra / Nombre del operator / Fecha / Hora</center></td><td colspan=\"4\"><center>Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Diluyente / N&#xFA;mero de muestra / N&#xFA;mero de lote del diluyente / Fecha / Hora / <br class=\"autobr\">Fecha de la &#xFA;ltima calibraci&#xF3;n/ Nombre del operador /Nombre del programa</center></td></tr><tr class=\"row_odd odd\"><td>Conexi&#xF3;n</td><td colspan=\"4\"><center> Salida RS232 para impresora / puerto USB para computador / conector Jack para pedal</center></td><td colspan=\"4\"><center>2 puertos USB (tipo A) <br class=\"autobr\">para conectar una impresora, teclado, lector de c&#xF3;digos de barras, memoria USB /<br class=\"autobr\">1 puerto USB (tipo B) para conectar un computador/ <br class=\"autobr\">conector Jack para conectar un pedal /<br class=\"autobr\">Pistola dispensadora / Conexi&#xF3;n Ethernet para LIMS</center></td></tr><tr class=\"row_even even\"><td>Peso</td><td><center>10.5 kg</center></td><td><center>13 kg</center></td><td><center>12.5 kg</center></td><td><center>15 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td></tr><tr class=\"row_odd odd\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5<br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td></tr><tr class=\"row_even even\"><td>Idioma</td><td colspan=\"4\"><center>Ingl&#xE9;s</center></td><td colspan=\"4\"><center>Ingl&#xE9;s / Franc&#xE9;s </center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"8\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"8\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"8\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"8\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"8\"><center>1 a&#xF1;o</center></td></tr></tbody></table><div class=\"pictos\">\t\t<h4>Certificado</h4>\t\t<ul>\t\t\t\t\t\t\t<li class=\"picto_ISO9001_2008\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_WEE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_ROHS\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_CE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_MadeinFrance\"></li>\t\t\t\t\t\t</ul></div>",
+            "codigo": ""
+        }, {
+            "name": "DiluFlow Elite 1 kg",
+            "sub": [],
+            "imgs": [{"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 1 kg/DiluFlow Elite 1 kg.jpg"}],
+            "descripcion": "<p>DiluFlow<sup>&#xAE;</sup> Elite diluye autom&#xE1;ticamente en pocos segundos una muestra s&#xF3;lida con el peso apropiado de diluyente y con trazabilidad completa. &#xA1;Programable y conectable hasta con 6 diluyentes, le ofrece la mejor soluci&#xF3;n para sus diluciones! Sumamente preciso, est&#xE1; recomendado para las industrias cosm&#xE9;ticas.</p><p><strong>Cumple con las normas ISO 7218, ISO 6887-1 &amp; FDA BAM</strong></p>",
+            "caracteristicas": "<h2 class=\"tab\">Rasgos clave</h2><p><strong>RASGOS &#xDA;NICOS</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Perfil sumamente bajo: &#xA1; Solamente 30 cm ! Perfecto para un flujo laminar.<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Sistema GeckoGrip (Patentado): mantiene la bolsa en todas las condiciones<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Hasta 6 bombas con 4 bombas conectables<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Light Code: indicador intuitivo del estado<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Modo multidispensaci&#xF3;n (Patentado) con pistola dispensadora</p><p><strong>R&#xC1;PIDO</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;El m&#xE1;s r&#xE1;pido del mundo: solamente 8 s* para dispensar 225 mL<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Funciones de distribuci&#xF3;n y de pesada en 1 <br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bombas Watson Marlow&#xAE; de calidad superior</p><p><strong>EXCELENTE ERGONOM&#xCD;A</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Brazo robotizado : suelta la muestra con seguridad y facilidad<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Soporte BagOpen&#xAE; magn&#xE9;tico (Forma patentada)</p><p><strong>TRAZABILIDAD</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;32 programas editables<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Conectividad bidreccional<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Trazabilidad completa: impresora, ExcelTM, CSV y LIMS</p><p><strong>CALIDAD SUPERIOR</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Cumple con las normas ISO 7218, ISO 6887-1 y FDA BAM<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Hecho en Francia: norma ISO 9001 2008</p><p><strong>DISPONIBLE EN:</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> Elite una bomba, 1 kg (ref. 503 101)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> Elite dos bombas, 1 kg (ref. 503 201)</p><p>*Tiempo de diluci&#xF3;n para una muestra de 25 g diluida al 1/10 con booster kit en modo r&#xE1;pido.</p>",
+            "especificaciones": "<h2 class=\"tab\">Especificaciones t&#xE9;cnicas</h2><p>Especificaciones t&#xE9;cnicas del modelo.<br class=\"autobr\">Haga desfilar hacia abajo para el cuadro comparativo con los otros modelos de la l&#xED;nea.</p><table summary=\"\"><tbody></tbody></table><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>503 101</center></td><td><center>503 201</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con GeckoGrip</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Hasta 6 bombas</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Modo Multidispensaci&#xF3;n patentado</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>32 programas personalizables</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Conectividad bidireccional</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Diluci&#xF3;n  1 g al 1/10</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"2\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>1000 g</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 20 g: &#xB1; 0.01 g / 20 g hasta 1000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"2\"><center>2 hasta  1000, fracciones personalizables</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"2\"><center> &gt;99%*</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>&lt; 8 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"2\"><center>&lt; 6 s**</center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"2\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"2\"><center> 2 integradas + 4 external</center></td></tr><tr class=\"row_even even\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"2\"><center>  R&#xE1;pido / Est&#xE1;ndar / Preciso </center></td></tr><tr class=\"row_odd odd\"><td>Trazabilidad</td><td colspan=\"2\"><center>Impresora / Exportaci&#xF3;n de datos hacia Excel<sup>TM</sup> / exportaci&#xF3;n de archivos CSV en memoria USB / LIMS</center></td></tr><tr class=\"row_even even\"><td>Datos exportados</td><td colspan=\"2\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Diluyente / N&#xFA;mero de muestra / N&#xFA;mero de lote del diluyente / Fecha / Hora / <br class=\"autobr\">Fecha de la &#xFA;ltima calibraci&#xF3;n/ Nombre del operador /Nombre del programa</center></td></tr><tr class=\"row_odd odd\"><td>Conexi&#xF3;n</td><td colspan=\"2\"><center> 2 puertos USB (tipo A) para conectar una impresora, teclado, lector de c&#xF3;digos de barras, memoria USB /<br class=\"autobr\">1 puerto USB (tipo B)  para conectar un computador/ <br class=\"autobr\">conector Jack para conectar un pedal / Pistola dispensadora / Conexi&#xF3;n Ethernet para LIMS</center></td></tr><tr class=\"row_even even\"><td>Peso</td><td><center>13 kg</center></td><td><center>15.5 kg</center></td></tr><tr class=\"row_odd odd\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 x 37.5 cm</center></td><td><center>37 x 41.5 x 37.5 cm</center></td></tr><tr class=\"row_even even\"><td>Idioma</td><td colspan=\"2\"><center>Ingl&#xE9;s / Franc&#xE9;s</center></td></tr><tr class=\"row_odd odd\"><td>Patentes</td><td colspan=\"2\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_even even\"><td>Cumple con</td><td colspan=\"2\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_odd odd\"><td>Fabricaci&#xF3;n</td><td colspan=\"2\"><center> Hecho en Francia, ISO 9001-2008</center></td></tr><tr class=\"row_even even\"><td>Power</td><td colspan=\"2\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_odd odd\"><td>Todo en acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Garant&#xED;a</td><td colspan=\"2\"><center>1 a&#xF1;o</center></td></tr></tbody></table><p>*Con kit booster en modo standard o accurate  ** Con kit booster en modo r&#xE1;pido</p><p>DiluFlow<sup>&#xAE;</sup> Elite est&#xE1; entregado con 1 o 2 bombas, 1 bandeja de seguridad 400, 1 protecci&#xF3;n para boquilla de distribuci&#xF3;n, 1 conjunto de dispensaci&#xF3;n (GL45 - &#xD8; 3,2 mm) por bomba, USB key, cable de alimentaci&#xF3;n, 1 BagOpen<sup>&#xAE;</sup> 400 para diluidores, manual de usuario, instrucciones de uso simplificadas, 10 GeckoGrip, muestras de bolsas gratis.</p><p><strong>Comparaci&#xF3;n con los otros modelos de la l&#xED;nea</strong></p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>501 103<center></center></center></td><td><center>501 203<center></center></center></td><td><center>502 105<center></center></center></td><td><center>502 205<center></center></center></td><td><center>503 105<center></center></center></td><td><center>503 205<center></center></center></td><td><center>503 101<center></center></center></td><td><center>503 201</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con GeckoGrip</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit Jumbo</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>-</center></td></tr><tr class=\"row_even even\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Hasta 6 bombas</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Modo Multidispensaci&#xF3;n patentado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>32 programas personalizables</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Conectividad bidireccional</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Diluci&#xF3;n  1 g al 1/10</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr></tbody></table><p><br class=\"manualbr\"></p><table summary=\"\"><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"8\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>3000 g</center></td><td colspan=\"4\"><center>5000 g</center></td><td colspan=\"2\"><center>1000 g</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 3 000 g: &#xB1; 0.1%</center></td><td colspan=\"4\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 5 000 g: &#xB1; 0.1%</center></td><td colspan=\"2\"><center>0 g hasta 20 g: &#xB1; 0.01 g / <br class=\"autobr\">20 g hasta 1 000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"4\"><center>1/2 hasta 1/99</center></td><td colspan=\"4\"><center>2 hasta 1000, fracciones personalizables</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"2\"><center>&gt; 98%</center></td><td colspan=\"6\"><center>&gt; 99%*</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"4\"><center>&lt; 9 s**</center></td><td colspan=\"4\"><center>&lt; 8 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 375 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>-<center></center></center></td><td colspan=\"2\"><center>&lt; 80 s**</center></td><td colspan=\"2\"><center>&lt; 75 s**</center></td><td colspan=\"2\"><center>-<center></center></center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"4\"><center>&lt; 7 s**</center></td><td colspan=\"4\"><center>&lt; 6 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"4\"><center>&lt; 10 s**</center></td><td colspan=\"4\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"4\"><center> 2 integradas</center></td><td colspan=\"4\"><center>2 integradas + 4 externas</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"8\"><center>R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr></tbody></table><p>* con kit booster en modo est&#xE1;ndar o preciso ** con kit booster en modo r&#xE1;pido</p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td></tr><tr class=\"row_odd odd\"><td>Trazabilidad</td><td colspan=\"4\"><center>Impresora / Software de monitoreo <br class=\"autobr\">(exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, <br class=\"autobr\">archivo CSV, impresora</center></td><td colspan=\"4\"><center>Impresora / Exportaci&#xF3;n hacia Excel<sup>TM</sup> / <br class=\"autobr\">exportaci&#xF3;n de archivos CSV en memoria USB / LIMS</center></td></tr><tr class=\"row_even even\"><td>Datos exportados</td><td colspan=\"4\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Bomba izquierda o derecha <br class=\"autobr\">+ con software de monitoreo: <br class=\"autobr\">N&#xFA;mero de muestra / Nombre del operator / Fecha / Hora</center></td><td colspan=\"4\"><center>Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Diluyente / N&#xFA;mero de muestra / N&#xFA;mero de lote del diluyente / Fecha / Hora / <br class=\"autobr\">Fecha de la &#xFA;ltima calibraci&#xF3;n/ Nombre del operador /Nombre del programa</center></td></tr><tr class=\"row_odd odd\"><td>Conexi&#xF3;n</td><td colspan=\"4\"><center> Salida RS232 para impresora / puerto USB para computador / conector Jack para pedal</center></td><td colspan=\"4\"><center>2 puertos USB (tipo A) <br class=\"autobr\">para conectar una impresora, teclado, lector de c&#xF3;digos de barras, memoria USB /<br class=\"autobr\">1 puerto USB (tipo B) para conectar un computador/ <br class=\"autobr\">conector Jack para conectar un pedal /<br class=\"autobr\">Pistola dispensadora / Conexi&#xF3;n Ethernet para LIMS</center></td></tr><tr class=\"row_even even\"><td>Peso</td><td><center>10.5 kg</center></td><td><center>13 kg</center></td><td><center>12.5 kg</center></td><td><center>15 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td></tr><tr class=\"row_odd odd\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5<br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td></tr><tr class=\"row_even even\"><td>Idioma</td><td colspan=\"4\"><center>Ingl&#xE9;s</center></td><td colspan=\"4\"><center>Ingl&#xE9;s / Franc&#xE9;s </center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"8\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"8\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"8\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"8\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"8\"><center>1 a&#xF1;o</center></td></tr></tbody></table><div class=\"pictos\">\t\t<h4>Certificado</h4>\t\t<ul>\t\t\t\t\t\t\t<li class=\"picto_ISO9001_2008\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_WEE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_ROHS\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_CE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_MadeinFrance\"></li>\t\t\t\t\t\t</ul></div>",
+            "codigo": ""
+        }, {
+            "name": "DiluFlow Elite 5 kg",
+            "sub": [],
+            "imgs": [{"url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 5 kg/DiluFlow Elite 5 kg.jpg"}],
+            "descripcion": "<p>DiluFlow<sup>&#xAE;</sup> Elite diluye autom&#xE1;ticamente en pocos segundos una muestra s&#xF3;lida con el peso apropiado de diluyente y con trazabilidad completa. &#xA1;Programable y conectable hasta con 6 diluyentes, le ofrece la mejor soluci&#xF3;n para sus diluciones! Sumamente preciso, est&#xE1; recomendado para las industrias cosm&#xE9;ticas.<br class=\"autobr\"><strong>Cumple con las normas ISO 7218, ISO 6887-1 &amp; FDA BAM</strong></p>",
+            "caracteristicas": "<h2 class=\"tab\">Rasgos clave</h2><p>RASGOS &#xDA;NICOS<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Perfil sumamente bajo: &#xA1; Solamente 30 cm ! Perfecto para un flujo laminar.<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Sistema GeckoGrip (Patentado): mantiene la bolsa en todas las condiciones<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Hasta 6 bombas con 4 bombas conectables<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Light Code: indicador intuitivo del estado<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Modo multidispensaci&#xF3;n (Patentado) con pistola dispensadora</p><p>R&#xC1;PIDO<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;El m&#xE1;s r&#xE1;pido del mundo: solamente 8 s* para dispensar 225 mL<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Funciones de distribuci&#xF3;n y de pesada en 1 <br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bombas Watson Marlow&#xAE; de calidad superior</p><p>EXCELENTE ERGONOM&#xCD;A<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Brazo robotizado : suelta la muestra con seguridad y facilidad<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Bandeja de seguridad extra&#xED;ble (Patentada)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Soporte BagOpen&#xAE; magn&#xE9;tico (Forma patentada)</p><p>TRAZABILIDAD<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;32 programas editables<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Conectividad bidreccional<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Trazabilidad completa: impresora, ExcelTM, CSV y LIMS</p><p>CALIDAD SUPERIOR<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Cumple con las normas ISO 7218, ISO 6887-1 y FDA BAM<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;Hecho en Francia: norma ISO 9001 2008</p><p><strong>DISPONIBLE EN:</strong><br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> Elite una bomba, 5 kg (ref. 503 105)<br><img src=\"squelettes/puce.gif\" width=\"8\" height=\"11\" class=\"puce\" alt=\"-\">&#xA0;DiluFlow<sup>&#xAE;</sup> Elite dos bombas, 5 kg (ref. 503 205)</p><p>*Tiempo de diluci&#xF3;n para una muestra de 25 g diluida al 1/10 con booster kit en modo r&#xE1;pido.</p>",
+            "especificaciones": "<h2 class=\"tab\">Especificaciones t&#xE9;cnicas</h2><p>Especificaciones t&#xE9;cnicas del modelo.<br class=\"autobr\">Haga desfilar hacia abajo para el cuadro comparativo con los otros modelos de la l&#xED;nea.</p><table summary=\"\"><tbody></tbody></table><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>503 105</center></td><td><center>503 205</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con GeckoGrip</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Hasta 6 bombas</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Modo Multidispensaci&#xF3;n patentado</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>32 programas personalizables</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Conectividad bidireccional</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Rango de pesada</td><td colspan=\"2\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>5000 g</center></td></tr><tr class=\"row_odd odd\"><td>Weighing accuracy</td><td colspan=\"2\"><center>0 g  hasta100 g: &#xB1; 0.05 g / 100 g  hasta 5000 g: &#xB1; 0,1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"2\"><center>2 hasta 1000, fracciones personalizables</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"2\"><center> &gt;99%*</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>&lt; 8 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 375 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>&lt; 75 s**</center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"2\"><center>&lt; 6 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"2\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"2\"><center> 2 integrated + 4 external</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"2\"><center> R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr><tr class=\"row_even even\"><td>Trazabilidad</td><td colspan=\"2\"><center>Impresora / Export to Excel<sup>TM</sup> / CSV file export on USB key / LIMS</center></td></tr><tr class=\"row_odd odd\"><td>Datos exportados</td><td colspan=\"2\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Diluyente / N&#xFA;mero de muestra / Nombre del operator / Fecha / Hora / Fecha de la &#xFA;ltima calibraci&#xF3;n/ Nombre del operador /Nombre del programa</center></td></tr><tr class=\"row_even even\"><td>Conexi&#xF3;n</td><td colspan=\"2\"><center> 2 puertos USB (tipo A) para conectar printer, keyboard, bar-code reader, USB key /<br class=\"autobr\">1 puerto USB (tipo B) para conectar un computador/ <br class=\"autobr\">conector Jack para conectar un pedal /<br class=\"autobr\">Pistola dispensadora / Conexi&#xF3;n Ethernet para LIMS</center></td></tr><tr class=\"row_odd odd\"><td>Peso</td><td><center>13 kg</center></td><td><center>15.5 kg</center></td></tr><tr class=\"row_even even\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 x 37.5 cm</center></td><td><center>37 x 41.5 x 37.5 cm</center></td></tr><tr class=\"row_odd odd\"><td>Idioma</td><td colspan=\"2\"><center>Ingl&#xE9;s / Franc&#xE9;s</center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"2\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"2\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_even even\"><td>Fabricaci&#xF3;n</td><td colspan=\"2\"><center> Hecho en Francia, ISO 9001-2008</center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"2\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"2\"><center>1 a&#xF1;o</center></td></tr></tbody></table><p>*Con kit booster en modo standard o accurate  ** Con kit booster en modo r&#xE1;pido</p><p>DiluFlow<sup>&#xAE;</sup> Elite est&#xE1; entregado con 1 o 2 bombas, 1 bandeja de seguridad 400, 1 protecci&#xF3;n para boquilla de distribuci&#xF3;n, 1 conjunto de dispensaci&#xF3;n (GL45 - &#xD8; 6,4 mm) por bomba, USB key, cable de alimentaci&#xF3;n, 1 BagOpen<sup>&#xAE;</sup> 400 para diluidores, manual de usuario, instrucciones de uso simplificadas, 10 GeckoGrip, muestras de bolsas gratis.</p><p><strong>Comparaci&#xF3;n con los otros modelos de la l&#xED;nea</strong></p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Referencia</td><td><center>501 103<center></center></center></td><td><center>501 203<center></center></center></td><td><center>502 105<center></center></center></td><td><center>502 205<center></center></center></td><td><center>503 105<center></center></center></td><td><center>503 205<center></center></center></td><td><center>503 101<center></center></center></td><td><center>503 201</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> altura &lt; 30 cm</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Bandeja de seguridad patentada</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>BagOpen<sup>&#xAE;</sup> con GeckoGrip</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup><br class=\"autobr\">(forma patentada)</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>LightCode: LED de color seg&#xFA;n el estado</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit booster</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Cuerpo de acero inoxidable de 304L</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>N&#xFA;cleo electromagn&#xE9;tico con fundici&#xF3;n de acero inoxidable</td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Brazo robotizado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Compatible con kit Jumbo</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>-</center></td></tr><tr class=\"row_even even\"><td>Protecci&#xF3;n para boquilla de distribuci&#xF3;n</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Hasta 6 bombas</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Modo Multidispensaci&#xF3;n patentado</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>32 programas personalizables</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_even even\"><td>Conectividad bidireccional</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Diluci&#xF3;n  1 g al 1/10</td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>-</center></td><td colspan=\"2\"><center>&#x2714;</center></td></tr></tbody></table><p><br class=\"manualbr\"></p><table summary=\"\"><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td><td><center>Una bomba</center></td><td><center>Dos bombas</center></td></tr><tr class=\"row_odd odd\"><td>Resoluci&#xF3;n hasta 200 g</td><td colspan=\"8\"><center>0.01 g</center></td></tr><tr class=\"row_even even\"><td>Rango de pesada</td><td colspan=\"2\"><center>3000 g</center></td><td colspan=\"4\"><center>5000 g</center></td><td colspan=\"2\"><center>1000 g</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de pesada</td><td colspan=\"2\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 3 000 g: &#xB1; 0.1%</center></td><td colspan=\"4\"><center>0 g hasta 100 g: &#xB1; 0.05 g / <br class=\"autobr\">100 g hasta 5 000 g: &#xB1; 0.1%</center></td><td colspan=\"2\"><center>0 g hasta 20 g: &#xB1; 0.01 g / <br class=\"autobr\">20 g hasta 1 000 g: &#xB1; 0.1%</center></td></tr><tr class=\"row_even even\"><td>Factor de diluci&#xF3;n</td><td colspan=\"4\"><center>1/2 hasta 1/99</center></td><td colspan=\"4\"><center>2 hasta 1000, fracciones personalizables</center></td></tr><tr class=\"row_odd odd\"><td>Precisi&#xF3;n de diluci&#xF3;n</td><td colspan=\"2\"><center>&gt; 98%</center></td><td colspan=\"6\"><center>&gt; 99%*</center></td></tr><tr class=\"row_even even\"><td>Tiempo de diluci&#xF3;n para una muestra de 25 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"4\"><center>&lt; 9 s**</center></td><td colspan=\"4\"><center>&lt; 8 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de diluci&#xF3;n para una muestra de 375 g <br class=\"autobr\">diluida al 1/10</td><td colspan=\"2\"><center>-<center></center></center></td><td colspan=\"2\"><center>&lt; 80 s**</center></td><td colspan=\"2\"><center>&lt; 75 s**</center></td><td colspan=\"2\"><center>-<center></center></center></td></tr><tr class=\"row_even even\"><td>Tiempo de dispensaci&#xF3;n para 90 mL</td><td colspan=\"4\"><center>&lt; 7 s**</center></td><td colspan=\"4\"><center>&lt; 6 s**</center></td></tr><tr class=\"row_odd odd\"><td>Tiempo de dispensaci&#xF3;n para 225 mL</td><td colspan=\"4\"><center>&lt; 10 s**</center></td><td colspan=\"4\"><center>&lt; 9 s**</center></td></tr><tr class=\"row_even even\"><td>N&#xFA;mero m&#xE1;ximo de bombas</td><td colspan=\"4\"><center> 2 integradas</center></td><td colspan=\"4\"><center>2 integradas + 4 externas</center></td></tr><tr class=\"row_odd odd\"><td>Modo de diluci&#xF3;n / dispensaci&#xF3;n</td><td colspan=\"8\"><center>R&#xE1;pido / Est&#xE1;ndar / Preciso</center></td></tr></tbody></table><p>* con kit booster en modo est&#xE1;ndar o preciso ** con kit booster en modo r&#xE1;pido</p><table><tbody><tr class=\"row_odd odd\"><td><strong> </strong></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> 3 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Pro 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 5 kg</strong></center></td><td colspan=\"2\"><center><strong>DiluFlow<sup>&#xAE;</sup> Elite 1 kg</strong></center></td></tr><tr class=\"row_even even\"><td><strong> </strong></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td><td><center>Una <br class=\"autobr\">bomba</center></td><td><center>Dos <br class=\"autobr\">bombas</center></td></tr><tr class=\"row_odd odd\"><td>Trazabilidad</td><td colspan=\"4\"><center>Impresora / Software de monitoreo <br class=\"autobr\">(exportaci&#xF3;n de datos hacia Excel<sup>TM</sup>, Open Office<sup>TM</sup>, <br class=\"autobr\">archivo CSV, impresora</center></td><td colspan=\"4\"><center>Impresora / Exportaci&#xF3;n hacia Excel<sup>TM</sup> / <br class=\"autobr\">exportaci&#xF3;n de archivos CSV en memoria USB / LIMS</center></td></tr><tr class=\"row_even even\"><td>Datos exportados</td><td colspan=\"4\"><center> Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Bomba izquierda o derecha <br class=\"autobr\">+ con software de monitoreo: <br class=\"autobr\">N&#xFA;mero de muestra / Nombre del operator / Fecha / Hora</center></td><td colspan=\"4\"><center>Peso de la muestra / Peso total / Factor de diluci&#xF3;n / <br class=\"autobr\">Precisi&#xF3;n de diluci&#xF3;n / Diluyente / N&#xFA;mero de muestra / N&#xFA;mero de lote del diluyente / Fecha / Hora / <br class=\"autobr\">Fecha de la &#xFA;ltima calibraci&#xF3;n/ Nombre del operador /Nombre del programa</center></td></tr><tr class=\"row_odd odd\"><td>Conexi&#xF3;n</td><td colspan=\"4\"><center> Salida RS232 para impresora / puerto USB para computador / conector Jack para pedal</center></td><td colspan=\"4\"><center>2 puertos USB (tipo A) <br class=\"autobr\">para conectar una impresora, teclado, lector de c&#xF3;digos de barras, memoria USB /<br class=\"autobr\">1 puerto USB (tipo B) para conectar un computador/ <br class=\"autobr\">conector Jack para conectar un pedal /<br class=\"autobr\">Pistola dispensadora / Conexi&#xF3;n Ethernet para LIMS</center></td></tr><tr class=\"row_even even\"><td>Peso</td><td><center>10.5 kg</center></td><td><center>13 kg</center></td><td><center>12.5 kg</center></td><td><center>15 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td><td><center>13 kg</center></td><td><center>15.5 kg</center></td></tr><tr class=\"row_odd odd\"><td>Dimensiones (a x p x a)</td><td><center>31 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 40 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5<br class=\"autobr\">x 37.5 cm</center></td><td><center>31 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td><td><center>37 x 41.5 <br class=\"autobr\">x 37.5 cm</center></td></tr><tr class=\"row_even even\"><td>Idioma</td><td colspan=\"4\"><center>Ingl&#xE9;s</center></td><td colspan=\"4\"><center>Ingl&#xE9;s / Franc&#xE9;s </center></td></tr><tr class=\"row_odd odd\"><td>Alimentaci&#xF3;n</td><td colspan=\"8\"><center>100-240 V&#xA0;50/60 Hz</center></td></tr><tr class=\"row_even even\"><td>Patentes</td><td colspan=\"8\"><center>Sistema GeckoGrip, Bandeja de seguridad extra&#xED;ble, modo Muti-Dispensaci&#xF3;n, Soporte magn&#xE9;tico para BagOpen<sup>&#xAE;</sup> (forma patentada)</center></td></tr><tr class=\"row_odd odd\"><td>Cumple con</td><td colspan=\"8\"><center>ISO 7218 - ISO 6887-1 - FDA BAM (Bacteriological Analytical Manual)</center></td></tr><tr class=\"row_even even\"><td>Todo en acero inoxidable</td><td colspan=\"8\"><center>&#x2714;</center></td></tr><tr class=\"row_odd odd\"><td>Garant&#xED;a</td><td colspan=\"8\"><center>1 a&#xF1;o</center></td></tr></tbody></table><div class=\"pictos\">\t\t<h4>Certificado</h4>\t\t<ul>\t\t\t\t\t\t\t<li class=\"picto_ISO9001_2008\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_WEE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_ROHS\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_CE\"></li>\t\t\t\t\t\t\t\t<li class=\"picto_MadeinFrance\"></li>\t\t\t\t\t\t</ul></div>",
+            "codigo": ""
+        }]
+    }, {
+        "name": "Homogenizadores",
+        "sub": [{
+            "name": "Gama MiniMix 100",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/Gama MiniMix.jpg"
+            }],
+            "sub": [{
+                "name": "MiniMix P CC",
+                "imgs": [{
+                    "url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/MiniMix P CC/MiniMix 100 P CC.jpg"
+                }, {
+                    "url": "public/assets/img/Productos/Equipos/Dilutores Gravimétricos/DiluFlow Elite 5 kg/DiluFlow Elite 5 kg.jpg"
+                }],
+                "codigo": "2201:30",
+                "sub": [],
+                "descripcion": "<p>Caracter&iacute;sticas esenciales</p><ul><li>R&aacute;pido y preciso</li></ul><br><p>MiniMix&nbsp;100 es el homogeneizador m&aacute;s peque&ntilde;o del mundo. Gracias a su pantalla digital, controla f&aacute;cilmente la velocidad y el tiempo de la mezcla de su MiniMix&nbsp;100 W CC. Disfruta de una muestra perfectamente homogeneizada con ning&uacute;n riesgo de contaminaci&oacute;n cruzada y en menos de 60 segundos!</p>",
+                "caracteristicas": "<p><strong>1. HOMOGENEIZACI&Oacute;N R&Aacute;PIDA DE PEQUE&Ntilde;AS MUESTRAS CON EXTRACCI&Oacute;N BACTERIANA &Oacute;PTIMA </strong></p><ul><li>Solamente 30 a 60 segundos para homogeneizar una muestra</li><li>Puebas ESB para la microbiolog&iacute;a de los alimentos</li><li>Biopsia, tomas de &oacute;rganos para la microbiolog&iacute;a veterinaria</li><li>B&uacute;squeda de toxinas : HPLC, GCMS</li></ul><p>&nbsp;</p><p><strong>2. F&Aacute;CIL DE LIMPIEZA</strong></p><ul><li>Palas extra&iacute;bles Click and Clean<sup>&reg;</sup> (Patentado)</li><li>La puerta se abre completamente a 270&deg; para facilitar el acceso a la c&aacute;mara del homogeneizador</li><li>Recipiente de seguridad</li><li>En acero inoxidable</li></ul><p>&nbsp;</p><p><strong>3. F&Aacute;CIL DE UTILIZACI&Oacute;N</strong></p><ul><li>Compacto</li><li>Se adapta a cualquier muestra (con el sistema de trituraci&oacute;n regulable)</li><li>Pantalla digital multifunci&oacute;n : control f&aacute;cil</li><li>Inserci&oacute;n f&aacute;cil de la bolsa : las palas para lado a lado</li><li>Sistema de cierre Q-Tight<sup>&reg;</sup> : ning&uacute;n problema de fuga de la parte superior de la bolsa durante la homogeneizaci&oacute;n</li></ul><p>&nbsp;</p><p><strong>4. PRECISI&Oacute;N</strong></p><ul><li>Velocidad de homogeneizaci&oacute;n regulable (3 - 6 - 9 - 12 golpes/segundo)</li><li>Tiempo de homogeneizaci&oacute;n regulable (1 seg. - 1 h o infinito)</li><li>Fuerza de trituraci&oacute;n regulable : adaptado a cualquier tipo de muestra (Patentado)</li></ul>",
+                "especificaciones": "<table summary=\"\"><thead><tr class=\"row_first\"><th id=\"ide90e_c0\"> </th><th id=\"ide90e_c1\">MiniMix<sup>®</sup> 100 P CC</th><th id=\"ide90e_c2\">MiniMix<sup>®</sup> 100 W CC</th></tr></thead><tbody><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Reference</td><td headers=\"ide90e_c1\"><center>011 230</center></td><td headers=\"ide90e_c2\"><center>013 230</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Removable and autoclavable paddles, Click &amp; Clean® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending power indicator</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Adjustable blending power<br class=\"autobr\">(up to 23 kg of pressure)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Digital screen</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Leak free Q-tight® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Side-by-side paddle stop</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Window door</td><td headers=\"ide90e_c1\"><center>-</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Security drip tray</td><td headers=\"ide90e_c1\"><center>in option</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">270° opening door</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">All stainless steel</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Compact and ergonomic</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending time</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>1 s - 1 h, ∞</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Blending speed</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3, 6, 9, 12 strokes/s</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Dimension (w x d x h)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>21 x 37 x 20 cm</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Weight</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>13 kg</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Power</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>110-220 V&nbsp;50-60Hz</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Capacity</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>5-80 mL</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Life-time guarantee</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>Unbreakable shock absorbers and window</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Warranty(after registration)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3 year</center></td></tr></tbody></table>",
+                "video": "public/assets/videos/Bolsas y Accesorios.mp4"
 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Bombas Peristálticas", 
-                        "sub":[
-                                {   
-                                    "name": "FlexiPumb", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Bombas Peristálticas/FlexiPump/FlexiPump.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "FlexiPumb Pro", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Bombas Peristálticas/FlexiPump Pro/FlexiPump Pro.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ]
-                    },
-                    {   
-                        "name": "Sembradores Automáticos", 
-                         "sub":[
-                                {   
-                                    "name": "EasySpiral", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Sembradores Automáticos/EasySpiral/EasySpiral.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "EasySpiral Dilute", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Sembradores Automáticos/EasySpiral Dilute/EasySpiral Dilute.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Contadores de Colonias", 
-                         "sub":[
-                                {   
-                                    "name": "Scan 100", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 100/Scan 100.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "Scan 300", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 300/Scan 300.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "Scan 500", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 500/Scan 500.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "Scan 1200", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 1200/Scan 1200.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "Scan 4000", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 4000/Scan 4000.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Packs BagMixer", 
-                        "sub":[
-                                {   
-                                    "name": "BagMixer Starter Pack", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Starter Pack/Starter Pack.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagMixer Classic Pack", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Classic Pack/Classic Pack.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagMixer Premium Pack", 
-                                    "imgs": [{"url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Premium Pack/Premium Pack.jpg"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ]      
-                    },
-                    {   
-                        "name": "Accesorios de Laboratorio", 
-                        "sub":[
-                                {   
-                                    "name": "Gama PetriPile",
-                                    "imgs": [{"url": "public/assets/img/down.png"}], 
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagSeal", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagOpen", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagClip", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagRack", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagPipet y BagTips", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ]     
-                    }
-                ]
-    },
-    {   
-        "name": "Bolsas", 
-        "sub":    [
-                    {   
-                        "name": "Gama RollBag", 
-                        "sub":[
-                                {   
-                                    "name": "RollBag 1300", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Gama BagLight", 
-                        "sub":[
-                                {   
-                                    "name": "BagLight Multilayer", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagLight HD Polysilk",
-                                    "imgs": [{"url": "public/assets/img/down.png"}], 
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagLight Polysilk", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Gama BagPage", 
-                        "sub":[
-                                {   
-                                    "name": "BagPage XR", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagPage R", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagPage F", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagPage +", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Gama BagFilter", 
-                        "sub":[
-                                {   
-                                    "name": "BagFilter Pull-Up", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagFilter S", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "BagFilter P", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    }
-                ]
-    },
-    {   
-        "name": "Descartables", 
-        "sub":  [
-                    {   
-                        "name": "Vasos y Contenedores", 
-                        "codigo": "2201:30",
-                        "sub": [] 
-                    },
-                    {   
-                        "name": "QuadLoops", 
-                        "codigo": "2201:30",
-                        "sub": [] 
-                    },
-                    {   
-                        "name": "Esparcidores", 
-                        "codigo": "2201:30",
-				        "sub": [] 
-                    },
-                    {   
-                        "name": "Placas de Petri", 
-                        "sub":[
-                                {   
-                                    "name": "50 mm", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "Placas de Contacto 65 mm", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                },
-                                {   
-                                    "name": "90 mm", 
-                                    "imgs": [{"url": "public/assets/img/down.png"}],
-                                    "codigo": "2201:30",
-									"sub": [] 
-                                }
-                            ] 
-                    },
-                    {   
-                        "name": "Pipetas Serologicas", 
-                        "codigo": "2201:30",
-				        "sub": [] 
-                    },
-                    {   
-                        "name": "Tips", 
-                        "codigo": "2201:30",
-				        "sub": [] 
-                    },
-                    {   
-                        "name": "Microtubos", 
-                        "codigo": "2201:30",
-				        "sub": [] 
-                    }
-                ]
-    }
-]
+            }, {
+                "name": "MiniMix W CC",
+                "codigo": "2201:30",
+                "sub": [],
+                "descripcion": "<ul><li>Homogeneizaci&oacute;n r&aacute;pida y precisa de la muestra</li><li>Alta tecnolog&iacute;a</li></ul><br><p>MiniMix&nbsp;100 es el homogeneizador m&aacute;s peque&ntilde;o del mundo.<br/>Gracias a su pantalla digital y su puerta de cristal, controla f&aacute;cilmente la velocidad y el tiempo de la mezcla de su MiniMix&nbsp;100 W CC. Disfruta de una muestra perfectamente homogeneizada con ning&uacute;n riesgo de contaminaci&oacute;n cruzada y en menos de 60 segundos!</p>",
+                "imgs": [{
+                    "url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama MiniMix (100)/MiniMix W CC/MiniMix 100 W CC.jpg"
+                }],
+                "caracteristicas": "<p><strong>1. HOMOGENEIZACI&Oacute;N R&Aacute;PIDA DE PEQUE&Ntilde;AS MUESTRAS CON EXTRACCI&Oacute;N BACTERIANA &Oacute;PTIMA </strong></p><ul><li>Solamente 30 a 60 segundos para homogeneizar una muestra</li><li>Puebas ESB para la microbiolog&iacute;a de los alimentos</li><li>Biopsia, tomas de &oacute;rganos para la microbiolog&iacute;a veterinaria</li><li>B&uacute;squeda de toxinas : HPLC, GCMS</li></ul><p>&nbsp;</p><p><strong>2. F&Aacute;CIL DE LIMPIEZA</strong></p><ul><li>Palas extra&iacute;bles Click and Clean<sup>&reg;</sup> (Patentado)</li><li>La puerta se abre completamente a 270&deg; para facilitar el acceso a la c&aacute;mara del homogeneizador</li><li>Recipiente de seguridad</li><li>En acero inoxidable</li></ul><p>&nbsp;</p><p><strong>3. F&Aacute;CIL DE UTILIZACI&Oacute;N</strong></p><ul><li>Compacto</li><li>Se adapta a cualquier muestra (con el sistema de trituraci&oacute;n regulable)</li><li>Pantalla digital multifunci&oacute;n : control f&aacute;cil</li><li>Inserci&oacute;n f&aacute;cil de la bolsa : las palas para lado a lado</li><li>Sistema de cierre Q-Tight<sup>&reg;</sup> : ning&uacute;n problema de fuga de la parte superior de la bolsa durante la homogeneizaci&oacute;n</li></ul><p>&nbsp;</p><p><strong>4. PRECISI&Oacute;N</strong></p><ul><li>Velocidad de homogeneizaci&oacute;n regulable (3 - 6 - 9 - 12 golpes/segundo)</li><li>Tiempo de homogeneizaci&oacute;n regulable (1 seg. - 1 h o infinito)</li><li>Fuerza de trituraci&oacute;n regulable : adaptado a cualquier tipo de muestra (Patentado)</li></ul>",
+                "especificaciones": "<table summary=\"\"><thead><tr class=\"row_first\"><th id=\"ide90e_c0\"> </th><th id=\"ide90e_c1\">MiniMix<sup>®</sup> 100 P CC</th><th id=\"ide90e_c2\">MiniMix<sup>®</sup> 100 W CC</th></tr></thead><tbody><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Reference</td><td headers=\"ide90e_c1\"><center>011 230</center></td><td headers=\"ide90e_c2\"><center>013 230</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Removable and autoclavable paddles, Click &amp; Clean® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending power indicator</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Adjustable blending power<br class=\"autobr\">(up to 23 kg of pressure)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Digital screen</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Leak free Q-tight® system</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Side-by-side paddle stop</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Window door</td><td headers=\"ide90e_c1\"><center>-</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Security drip tray</td><td headers=\"ide90e_c1\"><center>in option</center></td><td headers=\"ide90e_c2\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">270° opening door</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">All stainless steel</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Compact and ergonomic</td><td colspan=\"2\" headers=\"ide90e_c1\"><center><img src=\"squelettes/images/coche.png\" alt=\"oui\" title=\"oui\"></center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Blending time</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>1 s - 1 h, ∞</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Blending speed</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3, 6, 9, 12 strokes/s</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Dimension (w x d x h)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>21 x 37 x 20 cm</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Weight</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>13 kg</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Power</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>110-220 V&nbsp;50-60Hz</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Capacity</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>5-80 mL</center></td></tr><tr class=\"row_odd odd\"><td headers=\"ide90e_c0\">Life-time guarantee</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>Unbreakable shock absorbers and window</center></td></tr><tr class=\"row_even even\"><td headers=\"ide90e_c0\">Warranty(after registration)</td><td colspan=\"2\" headers=\"ide90e_c1\"><center>3 year</center></td></tr></tbody></table>"
+            }]
+        }, {
+            "name": "Gama BagMixer 400",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama BagMixer (400)/BagMixer 400 CC/BagMixer 400 CC.jpg"
+            }],
+            "sub": [{
+                "name": "BagMixer 400 P",
+                "codigo": "2201:30",
+                "sub": []
+            }, {
+                "name": "BagMixer 400 W",
+                "codigo": "2201:30",
+                "sub": []
+            }, {
+                "name": "BagMixer 400 CC",
+                "codigo": "2201:30",
+                "sub": []
+            }, {
+                "name": "BagMixer S",
+                "codigo": "2201:30",
+                "sub": []
+            }, {
+                "name": "BagMixer SW",
+                "codigo": "2201:30",
+                "sub": []
+            }]
+        }, {
+            "name": "Gama JumboMix 3500",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama JumboMix (3500)/Gama JumboMix.jpg"
+            }],
+            "sub": [{
+                "name": "JumboMix WarmMix",
+                "codigo": "2201:30",
+                "sub": []
+            }, {
+                "name": "JumboMix 3500 VP",
+                "codigo": "2201:30",
+                "sub": []
+            }, {
+                "name": "JumboMix 3500 VW",
+                "codigo": "2201:30",
+                "sub": []
+            }]
+
+        }]
+    }, {
+        "name": "Bombas Peristálticas",
+        "sub": [{
+            "name": "FlexiPumb",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Bombas Peristálticas/FlexiPump/FlexiPump.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "FlexiPumb Pro",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Bombas Peristálticas/FlexiPump Pro/FlexiPump Pro.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Sembradores Automáticos",
+        "sub": [{
+            "name": "EasySpiral",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Sembradores Automáticos/EasySpiral/EasySpiral.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "EasySpiral Dilute",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Sembradores Automáticos/EasySpiral Dilute/EasySpiral Dilute.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Contadores de Colonias",
+        "sub": [{
+            "name": "Scan 100",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 100/Scan 100.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "Scan 300",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 300/Scan 300.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "Scan 500",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 500/Scan 500.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "Scan 1200",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 1200/Scan 1200.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "Scan 4000",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 4000/Scan 4000.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Packs BagMixer",
+        "sub": [{
+            "name": "BagMixer Starter Pack",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Starter Pack/Starter Pack.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagMixer Classic Pack",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Classic Pack/Classic Pack.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagMixer Premium Pack",
+            "imgs": [{
+                "url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Premium Pack/Premium Pack.jpg"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Accesorios de Laboratorio",
+        "sub": [{
+            "name": "Gama PetriPile",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagSeal",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagOpen",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagClip",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagRack",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagPipet y BagTips",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }]
+}, {
+    "name": "Bolsas",
+    "sub": [{
+        "name": "Gama RollBag",
+        "sub": [{
+            "name": "RollBag 1300",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Gama BagLight",
+        "sub": [{
+            "name": "BagLight Multilayer",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagLight HD Polysilk",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagLight Polysilk",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Gama BagPage",
+        "sub": [{
+            "name": "BagPage XR",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagPage R",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagPage F",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagPage +",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Gama BagFilter",
+        "sub": [{
+            "name": "BagFilter Pull-Up",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagFilter S",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "BagFilter P",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }]
+}, {
+    "name": "Descartables",
+    "sub": [{
+        "name": "Vasos y Contenedores",
+        "codigo": "2201:30",
+        "sub": []
+    }, {
+        "name": "QuadLoops",
+        "codigo": "2201:30",
+        "sub": []
+    }, {
+        "name": "Esparcidores",
+        "codigo": "2201:30",
+        "sub": []
+    }, {
+        "name": "Placas de Petri",
+        "sub": [{
+            "name": "50 mm",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "Placas de Contacto 65 mm",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }, {
+            "name": "90 mm",
+            "imgs": [{
+                "url": "public/assets/img/down.png"
+            }],
+            "codigo": "2201:30",
+            "sub": []
+        }]
+    }, {
+        "name": "Pipetas Serologicas",
+        "codigo": "2201:30",
+        "sub": []
+    }, {
+        "name": "Tips",
+        "codigo": "2201:30",
+        "sub": []
+    }, {
+        "name": "Microtubos",
+        "codigo": "2201:30",
+        "sub": []
+    }]
+}]

@@ -38,7 +38,6 @@ html, body {
     }
     .nosotros-descripcion {
         border-left: solid #d0d1d2 2px;
-
     }
     .nosotros-wrapper {
         margin-top: 50px;
@@ -587,6 +586,37 @@ h3.cate {
     margin-top: 30px;
 }
 
+.tab-detalle-producto-caracteristicas h2 {
+    display: none;
+}
+
+.tab-detalle-producto-caracteristicas p strong+br {
+    display: none;
+}
+
+.tab-detalle-producto-caracteristicas p {
+    margin-bottom: 30px
+}
+
+.tab-detalle-producto-especificaciones .pictos {
+    display: none;
+}
+
+.tab-detalle-producto-especificaciones h2 {
+    display: none;
+}
+
+.tab-detalle-producto-especificaciones h2 + p {
+    display: none;
+}
+
+.tab-detalle-producto-caracteristicas img {
+    content: url("/public/assets/img/dot.png") !important;
+    width: 7px !important;
+    height: auto !important;
+    margin-right: 5px !important;
+}
+
 .tab-detalle-producto ul li {
     list-style: initial;
     margin-left: 49px;
@@ -597,6 +627,8 @@ h3.cate {
     display: block !important;
     margin-left: 17px;
     font-weight: 600 !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
 }
 
 .tab-detalle-producto table {
