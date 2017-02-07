@@ -1,6 +1,6 @@
 angular.module('mainCtrl', [])
 
-.controller('mainController', function($http, pathService, $rootScope, $location){
+.controller('mainController', function($http, pathService, $rootScope, $location, $scope){
     
     var vm = this;
     
@@ -17,6 +17,21 @@ angular.module('mainCtrl', [])
         while ((el = el.parentElement) && !el.classList.contains(cls));
         return el;
     }
+    
+    
+    //VERIFICA Y CAMBIA ORDEN DEL NOSOTROS EN MOBILE CUANDO SE CAMBIA LA RUTA
+    $scope.$on('$viewContentLoaded', function(event){
+        //PARA EL NOSOTROS
+        if (jQuery(window).width() <= 975) {
+            jQuery('#descripcion').insertBefore('#lista');
+        }
+        if (jQuery(window).width() > 975) {
+            jQuery('#lista').insertBefore('#descripcion');
+        }
+        jQuery(window).height(); // New height
+        jQuery(window).width(); // New width    
+    });
+    
     
     //verifica si debe mostrarse el arbol de categorías
     $rootScope.$on('$routeChangeStart', function(event, next, prev){
@@ -76,6 +91,7 @@ angular.module('mainCtrl', [])
         }
         
     });
+
     
     vm.setActive = function(menuItem) {
         vm.active = menuItem

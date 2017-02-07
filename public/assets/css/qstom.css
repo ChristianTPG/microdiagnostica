@@ -115,6 +115,9 @@ html, body {
     .contacto-form-wapper {
         margin-top: 15px;
     }
+    .img-responsive {
+        width: 70%;
+    }
 }
 
 @media (max-width: 320px) {
@@ -141,6 +144,12 @@ html, body {
 .nosotros-imagen h1 {
     color: black;
     font-size: 1.6em;
+    margin-left: 10%;
+}
+
+.nosotros-imagen img {
+    display: block;
+    margin: auto;
 }
 
 .contacto-datos h1 {
@@ -606,13 +615,13 @@ h3.cate {
     display: none;
 }
 
-.tab-detalle-producto-especificaciones h2 + p {
+.tab-detalle-producto-especificaciones h2+p {
     display: none;
 }
 
 .tab-detalle-producto-caracteristicas img {
     content: url("/public/assets/img/dot.png") !important;
-    width: 7px !important;
+    width: 5px !important;
     height: auto !important;
     margin-right: 5px !important;
 }
