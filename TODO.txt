@@ -1,0 +1,24 @@
+/** DEV **/
+12. Agregar contenidos a la pagina de los productos que faltan
+20. MOBILE Adaptar header
+21. MOBILE Ajustar Home
+27. Productos debería aceptar rutas sin parámetros
+28. Minificar todos los css y js
+30. Armar un gulp
+29. Cacheo de imágenes
+
+/** DESIGN **/
+HECHO 1. Armar maqueta Home de mobile
+2. Armar maqueta listado de productos mobile
+HECHO 3. Armar maqueta contactos mobile
+HECHO 4. Armar maqueta nosotros mobile
+HECHO 5. Armar maqueta contactos desktop
+HECHO 6. Armar maqueta nosotros desktop
+7. Modificar color del fondo de bienvenidos. No queda bien con el desplegable de productos (Esto checkearlo con punto 6 de DEV)
+HECHO 8. Quitar interscience de las imagenes
+HECHO 9. Bajar calidad de las imagenes
+
+/** CLIENTE **/
+1. Falta foto de Gama BagMixer® 400
+2. Faltan caracteristicas y especificaciones del Scan 4000
+3. Faltan caracteristicas y especificaciones de los Packs BagMixers
