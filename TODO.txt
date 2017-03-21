@@ -18,6 +18,11 @@ HECHO 6. Armar maqueta nosotros desktop
 HECHO 8. Quitar interscience de las imagenes
 HECHO 9. Bajar calidad de las imagenes
 
+Sacarle interscience a las fotos:
+Gama MiniMix 100
+Gama JumboMix 3500
+
+
 /** CLIENTE **/
 1. Falta foto de Gama BagMixer® 400
 2. Faltan caracteristicas y especificaciones del Scan 4000
