@@ -22,3 +22,4 @@ HECHO 9. Bajar calidad de las imagenes
 1. Falta foto de Gama BagMixer® 400
 2. Faltan caracteristicas y especificaciones del Scan 4000
 3. Faltan caracteristicas y especificaciones de los Packs BagMixers
+4. Faltan todas las descripciones, caracteristicas y especificaciones del apartado de desechables en productos
