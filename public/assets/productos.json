@@ -549,5 +549,63 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Descartables",
+        "sub": [
+            {
+                "name": "Vasos y Contenedores",
+                "codigo": "2201:30",
+                "sub": []
+            },
+            {
+                "name": "QuadLoops",
+                "codigo": "2201:30",
+                "sub": []
+            },
+            {
+                "name": "Esparcidores",
+                "codigo": "2201:30",
+                "sub": []
+            },
+            {
+                "name": "Placas de Petri",
+                "sub": [
+                    {
+                        "name": "50 mm",
+                        "imgs": [{"url": "public/assets/img/down.png" }],
+                        "codigo": "2201:30",
+                        "sub": []
+                    },
+                    {
+                        "name": "Placas de Contacto 65 mm",
+                        "imgs": [{ "url": "public/assets/img/down.png"}],
+                        "codigo": "2201:30",
+                        "sub": []
+                    },
+                    {
+                        "name": "90 mm",
+                        "imgs": [{ "url": "public/assets/img/down.png" }],
+                        "codigo": "2201:30",
+                        "sub": []
+                    }
+                ]
+            },
+            {
+                "name": "Pipetas Serologicas",
+                "codigo": "2201:30",
+                "sub": []
+            },
+            {
+                "name": "Tips",
+                "codigo": "2201:30",
+                "sub": []
+            },
+            {
+                "name": "Microtubos",
+                "codigo": "2201:30",
+                "sub": []
+            }
+        ]
     }
 ]
