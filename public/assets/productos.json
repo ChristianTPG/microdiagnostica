@@ -75,7 +75,7 @@
                     },
                     {
                         "name": "Gama BagMixer® 400",
-                        "img": [],
+                        "imgs": [{ "url": "public/assets/img/Productos/Equipos/Homogeneizadores/Gama BagMixer (400)/BagMixer SW/BagMixer SW.jpg" }],
                         "sub": [
                             {
                                 "name": "BagMixer 400 P",
@@ -244,9 +244,9 @@
                         "name": "Scan 4000",
                         "imgs": [{ "url": "public/assets/img/Productos/Equipos/Contadores de Colonias/Scan 4000/Scan 4000.jpg" }],
                         "sub": [],
-                        "descripcion": "<p>Scan<sup>&#xAE;</sup> 4000, automatic HD color colony counter, is adapted to all sizes of Petri dishes and all media culture. Its indirect lighting ensures great user comfort, high accuracy and excellent reproducibility.</p>",
-                        "caracteristicas": "",
-                        "especificaciones": "",
+                        "descripcion": "<p>Scan® 4000 es un contador automático de colonias de alta definición. Está adaptado a todos los tamaños de Placas de Petri y todos los medios de cultivo. Su iluminación indirecta asegura una gran comodidad para el usuario, alta eficiencia y una excelente reproducibilidad.</p>",
+                        "caracteristicas": "<p><strong>ALTA CALIDAD</strong></p><ul><li>Cuerpo de acero inoxidable&nbsp;</li><li>C&aacute;mara color Ultra HD </li><li>Zoom digital x 64</li><li>Resoluci&oacute;n: 5 mega-pixeles</li><li>Cuenta hasta 1000 colonias por segundo</li><li>Tama&ntilde;o m&iacute;nimo de colonia: 0.05 mm<u><br /> </u><br /> </li></ul><p><strong>EL MAYOR RANGO DE LECTURA EN EL MERCADO</strong></p><ul><li>Placas de petri desde &oslash; 55 a &oslash; 150 mm</li><li>Placas de petri cuadradas de 120 mm</li><li>Placas de petri con medios cromog&eacute;nicos</li><li>PetriFilm TM&nbsp;</li><li>RIDA TM</li><li>Compact Dry TM&nbsp;</li><li>Filtraci&oacute;n por membrana</li></ul><p><br /> <strong>ILUMINACI&Oacute;N SIN IGUAL</strong></p><ul><li>Iluminaci&oacute;n LED 360&deg; sin reflejos ni sombra sobre la placa con la tecnolog&iacute;a White Dome</li><li>C&aacute;mara CCD de 5 megapixels que detecta detalles invisibles a simple vista&nbsp;</li><li>Divisor del haz de luz para asegurar una iluminaci&oacute;n al 100% sin reflejos ni sombras&nbsp;</li><li>Detecci&oacute;n automatic de la placa + lectura sobre el 100% de la misma</li></ul><p>&nbsp;</p><p><strong>EFICIENCIA DEL SOFTWARE </strong></p><ul><li>Todas las funciones en una misma ventana</li><li>Optimizaci&oacute;n autom&aacute;tica del contraste, luminosidad y sensibilidad</li><li>Correcci&oacute;n autom&aacute;tica de defectos del Agar</li><li>Separaci&oacute;n autom&aacute;tica de colonias confluentes </li><li>Eliminaci&oacute;n autom&aacute;tica de las cuadr&iacute;culas de conteo</li><li>Marcado con una cruz sobre cada colonia contada</li><li>Exclusi&oacute;n poligonal de &aacute;rea</li><li>Medios precargados: PCA/TSA, MRS, VRBL, TBX, TSC, Baird Parker, GVPC, L.Mono, YM</li></ul><p><strong><u><br /> </u></strong><strong>ZONAS DE INHIBICI&Oacute;N</strong></p><ul><li>Detecci&oacute;n r&aacute;pida: hasta 16 sensibilidades de antibi&oacute;ticos por placa en un solo clic</li><li>3 modos de difusi&oacute;n: discos de papel (todas las marcas), pozos y peni-cylinders</li><li>Las zonas de inhibici&oacute;n y pozos de agar pueden ser agregados o borrados manualmente</li><li>Base de datos incorporadas: CA-SFM (French Society of Microbiology), EUCAST (European Commitee on Antimicrobial Susceptibility Testing)</li><li>Lee sobre: Agar Muller Hinton, Agar Sangre, Agar Chocolate </li><li>Precisi&oacute;n de medida de la zona de inhibici&oacute;n: 0,1 mm</li></ul><p>&nbsp;</p><p><strong>TRAZABILIDAD COMPLETA</strong></p><ul><li>Armonizaci&oacute;n de los resultados dentro de un equipo</li><li>Archivado autom&aacute;tico e impresi&oacute;n de datos: im&aacute;genes, comentarios y resultados</li><li>Trazabilidad externa (Sesi&oacute;n guardada, Excel&trade;, PDF, JPEG, BMP, reporte impreso de Scan<sup>&reg;</sup>)</li><li>Trazabilidad interna (C&oacute;digos de barras, archivos, conexi&oacute;n LIMS)</li><li>Seguridad en las sesiones (Conformidad con CFR 21 parte 11: seguridad en sistemas, controles operacionales y administraci&oacute;n de documentos)</li></ul><p><strong><u><br /> </u></strong><strong>EXCELENTE REPRODUCTIBILIDAD AND REPETITIVIDAD</strong></p><p><u>En cumplimiento con:</u></p><ul><li>BPL (Buenas Pr&aacute;cticas de Laboratorio)</li><li>CFR 21 parte 11</li><li>ISO 15189</li><li>ISO 7218</li><li>ISO 4833-2</li><li>NF V08-034</li><li>NF V08-100</li><li>AOAC 977.27</li><li>Est&aacute;ndares FDA-BAM </li></ul><p><br /> <strong><u><br /> </u></strong><br /> </p>",
+	                    "especificaciones": "",
                         "codigo": ""
                     }
                 ]
@@ -257,8 +257,8 @@
                     {
                         "name": "BagMixer Starter Pack",
                         "imgs": [{ "url": "public/assets/img/Productos/Equipos/Packs BagMixer/BagMixer Starter Pack/Starter Pack.jpg" }],
-                        "descripcion": "<p><strong>BagMixer<sup>&#xAE;</sup> Starter Pack</strong></p><p>BagMixer<sup>&#xAE;</sup> Starter Pack es la mejor y m&#xE1;s r&#xE1;pida manera para equipar su laboratorio.<br class=\"autobr\">BagMixer<sup>&#xAE;</sup> 400 es un homogeneizador de laboratorio f&#xE1;cil de uso y potente. Adaptado a todo tipo de aplicaciones y con una garant&#xED;a de la extracci&#xF3;n de bacterias &#xF3;ptima evita cualquier riesgo de contaminaci&#xF3;n cruzada.</p>",
-                        "caracteristicas": "",
+                        "descripcion": "<p>BagMixer® Starter Pack es la mejor y más rápida manera para equipar su laboratorio. BagMixer® 400 es un homogeneizador de laboratorio fácil de uso y potente. Adaptado a todo tipo de aplicaciones y con una garantía de la extracción de bacterias óptima evita cualquier riesgo de contaminación cruzada.</p>",
+                        "caracteristicas": "<p><strong>EL BAGMIXER<sup>&reg;</sup>STARTER PACK INCLUYE</strong></p><ul><li>1 Homogeneizador<ul><li>1 BagMixer<sup>&reg; </sup>400 (Homogeneizador)</li></ul></li><li>+ Bolsas est&eacute;riles de homogeneizaci&oacute;n<ul><li>500 BagFilter<sup>&reg;</sup> (Bolsas con filtro lateral)</li><li>500 BagLight<sup>&reg;</sup> (Bolsas sin filtro)</li></ul></li><li>+ Accesorios<ul><li>50 BagClip<sup>&reg;</sup> (Cierre herm&eacute;tico para bolsas)</li><li>1 BagOpen<sup>&reg;</sup> (Soporte para apertura de bolsas)</li><li>1 BagRack<sup>&reg;</sup> (Gradilla de acero inoxidable para bolsas)</li></ul></li></ul><p><strong>F&Aacute;CIL DE USO</strong></p><ul><li>Pensamos en todo lo que podr&iacute;a ser &uacute;til para usted para empezar su an&aacute;lisis microbiol&oacute;gico: todo en un paquete!</li></ul><p><strong>ECON&Oacute;MICO</strong></p><ul><li>BagMixer<sup>&reg;</sup> Starter Pack significa un buen equipo y un gran valor!</li></ul><p><strong>ALTA CALIDAD</strong></p><ul><li>INTERSCIENCE es el &uacute;nico fabricante de mezcladores de laboratorio y bolsas est&eacute;riles</li><li>BagMixer<sup>&reg;</sup> es un best-seller mundial: m&aacute;s de 10.000 se usan al d&iacute;a para todo tipo de an&aacute;lisis microbiol&oacute;gico</li><li>BagMixer<sup>&reg;</sup>, los amortiguadores y la puerta de cristal son garantizados de por vida</li><li>BagMixer<sup>&reg;</sup> tiene una garant&iacute;a de 3 a&ntilde;os</li></ul></p>",
                         "especificaciones": "",
                         "codigo": "110 000",
                         "sub": []
@@ -547,64 +547,6 @@
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Descartables",
-        "sub": [
-            {
-                "name": "Vasos y Contenedores",
-                "codigo": "2201:30",
-                "sub": []
-            },
-            {
-                "name": "QuadLoops",
-                "codigo": "2201:30",
-                "sub": []
-            },
-            {
-                "name": "Esparcidores",
-                "codigo": "2201:30",
-                "sub": []
-            },
-            {
-                "name": "Placas de Petri",
-                "sub": [
-                    {
-                        "name": "50 mm",
-                        "imgs": [{"url": "public/assets/img/down.png" }],
-                        "codigo": "2201:30",
-                        "sub": []
-                    },
-                    {
-                        "name": "Placas de Contacto 65 mm",
-                        "imgs": [{ "url": "public/assets/img/down.png"}],
-                        "codigo": "2201:30",
-                        "sub": []
-                    },
-                    {
-                        "name": "90 mm",
-                        "imgs": [{ "url": "public/assets/img/down.png" }],
-                        "codigo": "2201:30",
-                        "sub": []
-                    }
-                ]
-            },
-            {
-                "name": "Pipetas Serologicas",
-                "codigo": "2201:30",
-                "sub": []
-            },
-            {
-                "name": "Tips",
-                "codigo": "2201:30",
-                "sub": []
-            },
-            {
-                "name": "Microtubos",
-                "codigo": "2201:30",
-                "sub": []
             }
         ]
     }
