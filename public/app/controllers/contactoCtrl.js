@@ -5,7 +5,7 @@ angular.module('contactoCtrl', [])
     var vm = this;
  
     vm.sendMail = function() {
-        $.ajax({
+        /*$.ajax({
             type: "POST",
             url: "https://api.sendgrid.com/api/mail.send.json",
             contentType: 'text/plain',
@@ -27,8 +27,19 @@ angular.module('contactoCtrl', [])
                 'to': 'nicolas.imf@gmail.com',
                 'fromname': $scope.name
             }
-        });
-    }
+        });*/
+        
+        emailjs.send("mailgun", "microdiagnostica", {
+            "email":    $scope.email,
+            "name":     $scope.name,
+            "subject":  $scope.subject,
+            "comments": $scope.comments
+        }).then(function(response) {
+                confirmar()
+            }, function(err) {
+                error()
+            });
+        }
 
     function confirmar() {
         $("#mailConfirmado").fadeIn();
@@ -38,7 +49,18 @@ angular.module('contactoCtrl', [])
         }, 3000);
         limpiarCampos();
     }
+    
+    
+    function error() {
+        $("#mailError").fadeIn();
+        
+        //Tarda 3 segs en apagarse
+        setTimeout(function() {
+            $("#mailError").fadeOut();
+        }, 3000);
+    }
 
+    /*
     function errorMail(xhr, status, error) {
         if (xhr.status == '200' && status == 'parsererror')
             confirmar()
@@ -49,7 +71,7 @@ angular.module('contactoCtrl', [])
                 $("#mailError").fadeOut();
             }, 3000);
         }
-    }
+    }*/
 
     function limpiarCampos() {
         $scope.email = '';
