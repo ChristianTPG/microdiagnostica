@@ -29,7 +29,7 @@ angular.module('contactoCtrl', [])
             }
         });*/
         
-        emailjs.send("mailgun", "microdiagnostica", {
+        emailjs.send("microdiagnostica", "microdiagnostica", {
             "email":    $scope.email,
             "name":     $scope.name,
             "subject":  $scope.subject,
