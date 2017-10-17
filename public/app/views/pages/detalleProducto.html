@@ -41,10 +41,10 @@
     <div class="cd-tabs" >
         <nav>
             <ul class="cd-tabs-navigation" >
-                <li>
+                <li ng-show="detalleProductoCtrl.seleccionado.caracteristicas">
                     <a ng-click="detalleProductoCtrl.mostrarTabs($event,1)" class="selected"  href>Características</a>
                 </li>
-                <li>
+                <li ng-show="detalleProductoCtrl.seleccionado.especificaciones">
                     <a ng-click="detalleProductoCtrl.mostrarTabs($event,2)" class="" href>Especificaciones</a>
                 </li>
                 <li ng-show="detalleProductoCtrl.seleccionado.video">
