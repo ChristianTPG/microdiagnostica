@@ -6,7 +6,7 @@
         <i class="glyphicon glyphicon-dot purple-dot"> </i>
         <a class="bc-item-linkeable" href="/productos/{{ detalleProductoCtrl.productos_categoria}}/{{ detalleProductoCtrl.productos_subcategoria }}">{{detalleProductoCtrl.productos_subcategoria}}</a>
         <i class="glyphicon glyphicon-dot orange-dot"> </i>
-        <label class="bc-item" >{{detalleProductoCtrl.producto_name}}</label>
+        <label class="bc-item" >{{detalleProductoCtrl.producto_name.replace(".", "")}}</label>
     </div>
     <div class="clearfix"></div>
 
@@ -17,7 +17,7 @@
     </div>
     <div class="col-md-7 single-top-in simpleCart_shelfItem">
         <div class="single-para ">
-            <p class="product-title">{{ detalleProductoCtrl.seleccionado.name }}</p>
+            <p class="product-title">{{ detalleProductoCtrl.seleccionado.name.replace(".", "") }}</p>
             <div class="available" >
                <ul>
                    <li ng-show="detalleProductoCtrl.producto.sub.length > 0">

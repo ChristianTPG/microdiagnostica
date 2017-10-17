@@ -607,7 +607,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "Vasos y Contenedores",
+                    "name": "Vasos y Contenedores.",
                     "imgs": [{"url": "public/assets/img/Productos/Descartables/Vasos y Contenedores/Vasos 120 ml.jpg" }],
                     "codigo": "2201:30",
                     "sub": [
@@ -634,7 +634,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "QuadLoops",
+                    "name": "QuadLoops.",
                     "imgs": [
                       {"url": "public/assets/img/Productos/Descartables/QuadLoops/1 - Sphere.jpg" },
                       {"url": "public/assets/img/Productos/Descartables/QuadLoops/1 ul - Needle.jpg" },
@@ -654,7 +654,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "Esparcidores",
+                    "name": "Esparcidores.",
                     "imgs": [
                       {"url": "public/assets/img/Productos/Descartables/Esparcidores/Espátula Drigalsky.jpg" },
                       {"url": "public/assets/img/Productos/Descartables/Esparcidores/Spreaders.jpg" }
@@ -669,7 +669,7 @@
                 "name": "Placas de Petri",
                 "sub": [
                   {
-                    "name": "Placas de Petri",
+                    "name": "Placas de Petri.",
                     "imgs": [{"url": "public/assets/img/Productos/Descartables/Placas de Petri/90 mm/Placas 90 2 sectores.jpg" }],
                     "codigo": "2201:30",
                     "sub": [
@@ -706,7 +706,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "Pipetas Serologicas",
+                    "name": "Pipetas Serologicas.",
                     "imgs": [{"url": "public/assets/img/Productos/Descartables/Pipetas Serologicas/Pipetas 1 ml.jpg" }],
                     "codigo": "2201:30",
                     "sub": [
@@ -754,7 +754,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "Tips",
+                    "name": "Tips.",
                     "imgs": [{"url": "public/assets/img/Productos/Descartables/Tips/Tips Azules Eppendorf.jpg" }],
                     "codigo": "2201:30",
                     "sub": [
@@ -781,7 +781,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "Microtubos",
+                    "name": "Microtubos.",
                     "imgs": [{"url": "public/assets/img/Productos/Descartables/Microtubos/Microtubos.jpg" }],
                     "sub": [],
                     "descripcion": "<p>Importados directamente desde Israel.</p><p>Fabricados en polipropileno.</p><p>Tapa con cierre herm&eacute;tico.</p><p>Capacidad: 1,5 ml</p><p>Presentaci&oacute;n: Bolsa por 500 unidades.</p>",
@@ -794,7 +794,7 @@
                 "codigo": "2201:30",
                 "sub": [
                   {
-                    "name": "Tubos de Centrífuga",
+                    "name": "Tubos de Centrífuga.",
                     "imgs": [{"url": "public/assets/img/Productos/Descartables/Tubos de centrifuga/Tubos 15 ml.jpg" }],
                     "codigo": "2201:30",
                     "sub": [

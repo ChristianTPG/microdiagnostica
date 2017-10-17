@@ -6,9 +6,9 @@
         <i class="glyphicon glyphicon-dot purple-dot"> </i>
         <a class="bc-item-linkeable" href="/productos/{{ productosCtrl.productos_categoria}}/{{ productosCtrl.productos_subcategoria }}">{{productosCtrl.productos_subcategoria}}</a>
     </div>
-    
+
     <div class="col-md-4 col-xs-6 chain-grid  simpleCart_shelfItem" ng-repeat="producto in productosCtrl.productos">
-       
+
         <div class="grid-span-1">
             <a  href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}">
                 <div class="img-thumbnail"> <i class="glyphicon glyphicon-search"></i>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="grid-chain-bottom ">
-            <a href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}">{{ producto.name }}</a>
+            <a href="/detalleProducto/{{ productosCtrl.productos_categoria }}/{{ productosCtrl.productos_subcategoria }}/{{ producto.name }}">{{ producto.name.replace(".", "") }}</a>
             <div class="star-price">
                 <div class="price-at-bottom ">
                     <div class="item_price">{{ producto.codigo }}</div>
@@ -25,8 +25,8 @@
                 <div class="clearfix"> </div>
             </div>
         </div>
-        
+
         <br/>
-        
+
     </div>
 </div>
